@@ -81,3 +81,17 @@ export const Logo = () => {
     </svg>
   );
 };
+export const HalfGradientCircle = () => {
+  return (
+    <svg width="39" height="76" viewBox="0 0 39 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+      <path d="M38.0289 75.3148C33.1263 75.3148 28.2717 74.3492 23.7424 72.4731C19.213 70.5969 15.0975 67.847 11.6308 64.3804C8.16419 60.9138 5.4143 56.7983 3.53817 52.2689C1.66204 47.7395 0.696409 42.8849 0.69641 37.9824C0.69641 33.0798 1.66204 28.2252 3.53818 23.6958C5.41431 19.1665 8.1642 15.051 11.6308 11.5843C15.0975 8.11768 19.213 5.36779 23.7424 3.49166C28.2717 1.61553 33.1263 0.6499 38.0289 0.649901L38.0289 37.9824L38.0289 75.3148Z" fill="url(#paint0_linear_8001_3478)" />
+      <defs>
+        <linearGradient id="paint0_linear_8001_3478" x1="75.3613" y1="37.9824" x2="0.69641" y2="37.9824" gradientUnits="userSpaceOnUse">
+          <stop offset="0.200967" stop-color="#FF684D" />
+          <stop offset="1" stop-color="#FF5269" />
+        </linearGradient>
+      </defs>
+    </svg>
+
+  );
+};
