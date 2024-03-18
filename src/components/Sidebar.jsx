@@ -20,8 +20,8 @@ const Sidebar = ({ children }) => {
 
   return (
     <div className="bg-mirage">
-      <div className="container pt-[13px] max-w-[1064px] mx-auto px-3 ">
-        <div className="flex justify-between items-start border-b-[1px] pb-[23px]">
+      <div className="container pt-[13px] max-w-[1080px] mx-auto xl:ps-[25px] xl:pe-3 px-3">
+        <div className="flex justify-between items-start border-b-[1px] pb-[23px] ">
           <Logo />
           <div className="relative flex">
             {/* Overlay */}
