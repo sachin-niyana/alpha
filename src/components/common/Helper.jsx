@@ -1,7 +1,8 @@
 export const sidebarLink = [
-  { title: "HOME", path: "#HOME" },
   { title: "ABOUT US", path: "#ABOUT-US" },
-  { title: "ATTORNEYS ", path: "#ATTORNEYS" },
-  { title: "RESULTS", path: "#RESULTS" },
-  { title: "MEDIA", path: "#MEDIA" },
+  { title: "SERVICES", path: "#SERVICES" },
+  { title: "OUR WORK ", path: "#ATTORNEYS" },
+  { title: "QUOTE", path: "#RESULTS" },
+  { title: "LATEST", path: "#MEDIA" },
+  { title: "CONTECT", path: "#MEDIA" },
 ];
