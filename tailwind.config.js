@@ -6,18 +6,25 @@ module.exports = {
     "./src/app/**/*.{js,ts,jsx,tsx,mdx}",
   ],
   theme: {
+    fontFamily: {
+      inter: ["inter", "sans-serif"],
+    },
     fontSize: {
       sm: "16px",
       md: "20px",
       lg: "24px",
       xl: "38px",
       xxl: "48px",
-      "2xl": "68px",
+      "2xl": "64px",
       "3xl": "86px",
     },
     extend: {
+      backgroundImage: {
+        "linear-gradient-btn":
+          "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
+      },
       colors: {
-        "rich-black": "#b2b2b2",
+        "rich-black": "#2b2b2b",
         "dark-Blblackack": "#1e1e1e",
         gray: "#656463",
         "dark-gray": "#b9b9b9",

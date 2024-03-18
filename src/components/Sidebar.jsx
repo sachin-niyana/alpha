@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { useState } from "react";
-import { AiOutlineMenu } from "react-icons/ai";
+import { GiHamburgerMenu } from "react-icons/gi";
 import { RxCross2 } from "react-icons/rx";
 import { sidebarLink } from "./common/Helper";
 import { Logo } from "./common/Icon";
@@ -20,8 +20,8 @@ const Sidebar = ({ children }) => {
 
   return (
     <div className="bg-mirage">
-      <div className="container pt-7 max-w-[1152px] mx-auto px-3">
-        <div className="flex justify-between items-start">
+      <div className="container pt-[13px] max-w-[1064px] mx-auto px-3 ">
+        <div className="flex justify-between items-start border-b-[1px] pb-[23px]">
           <Logo />
           <div className="relative flex">
             {/* Overlay */}
@@ -34,7 +34,7 @@ const Sidebar = ({ children }) => {
 
             {/* Sidebar */}
             <div
-              className={`sidebar bg-white end-0 fixed top-0 w-full max-w-[300px] h-full transition-transform transform z-50 ${
+              className={`sidebar bg-white end-0 fixed top-0 w-full max-w-[320px] h-full transition-transform transform z-50 ${
                 isSidebarOpen ? "translate-x-0" : "-translate-x-[-100%]"
               }`}
             >
@@ -56,7 +56,7 @@ const Sidebar = ({ children }) => {
                       >
                         <Link
                           aria-label={value.title}
-                          className="text-mirage font-Inter font-medium text-xl opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
+                          className="text-mirage font-inter font-medium text-sm opacity-75 hover:opacity-100 transition-all ease-in-out duration-300"
                           key={index}
                           href={value.path}
                         >
@@ -66,6 +66,9 @@ const Sidebar = ({ children }) => {
                     );
                   })}
                 </ul>
+                <button className="bg-linear-gradient-btn hover:scale-105 mt-5 transition-all ease-in-out duration-300 py-[15px] px-[38px] font-inter font-semibold text-sm leading-[150%] text-light-white">
+                  Login
+                </button>
               </div>
             </div>
 
@@ -74,7 +77,7 @@ const Sidebar = ({ children }) => {
 
             {/* Toggle button */}
             <button className=" text-tia-maria" onClick={openSidebar}>
-              <AiOutlineMenu className="w-[43px] h-[43px]" />
+              <GiHamburgerMenu className="w-[43px] h-[43px]" />
             </button>
           </div>
         </div>
