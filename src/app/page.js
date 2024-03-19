@@ -11,11 +11,11 @@ export default function Home() {
   return (
     <div>
       <BackToTop />
-      {/* <Header /> */}
+      <Header />
       <Quote />
       <LatestBlog />
       <GetAnswer />
-      <Footer/>
+      <Footer />
     </div>
   );
 }
