@@ -35,7 +35,7 @@ const Header = () => {
           src="/assets/images/header/alpha.png"
           alt="alpha"
         />
-        <div className="flex lg:flex-row flex-col items-center border-e-[1px] border-rich-black">
+        <div className="flex lg:flex-row flex-col items-center lg:border-e-[1px] border-rich-black">
           <div className="flex flex-col w-full border-e-[1px] border-rich-black">
             <div className="flex sm:flex-row flex-col sm:justify-between justify-center">
               <div className="flex flex-col justify-center">
@@ -43,7 +43,7 @@ const Header = () => {
                 <p className="font-inter font-normal sm:text-start text-center text-md text-rich-black pt-[26px] tracking-widest uppercase">
                   B2B Sales Agency
                 </p>
-                <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl text-xxl text-rich-black uppercase leading-[120%] xl:max-w-[550px] max-w-[480px] pt-[9px]">
+                <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] xl:max-w-[550px] max-w-[480px] pt-[9px]">
                   Corporate marketing agency{" "}
                 </h1>
                 <div className="flex gap-2.5 items-center sm:mx-0 mx-auto mt-10 group max-w-[140px]">
@@ -57,7 +57,14 @@ const Header = () => {
               </div>
               <div className="flex justify-center">
                 <Image
-                  className="md:mt-[185px] sm:mt-28 mt-10"
+                  className="sm:block hidden md:mt-[185px] sm:mt-28 mt-10"
+                  width={180}
+                  height={359}
+                  src="/assets/images/header/study-2.png"
+                  alt="study"
+                />
+                <Image
+                  className="sm:hidden block md:mt-[185px] sm:mt-28 mt-10"
                   width={180}
                   height={359}
                   src="/assets/images/header/study.png"
@@ -67,7 +74,7 @@ const Header = () => {
             </div>
             <div className="relative lg:h-[439px]">
               <Image
-                className="lg:absolute lg:min-w-[1087px] right-0 w-full"
+                className="lg:absolute lg:min-w-[1112px] right-0 w-full"
                 width={1087}
                 height={439}
                 src="/assets/images/header/screen.png"
@@ -77,9 +84,9 @@ const Header = () => {
           </div>
           <div className="w-[153px]">
             <div className="absolute lg:top-[4%] top-[2%] right-[4%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
-            <div className="flex lg:flex-col flex-row justify-center lg:gap-0 gap-20">
+            <div className="flex lg:flex-col flex-row justify-center lg:gap-0 sm:gap-20 gap-10 lg:pb-0 pb-10">
               <div className="border-b-[1px] border-rich-black pb-[33px] pt-[43px]">
-                <h3 className="text-center font-inter font-normal text-xxl text-rich-black leading-[120%]">
+                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
                   {" "}
                   {counters.counter1}+
                 </h3>
@@ -88,7 +95,7 @@ const Header = () => {
                 </p>
               </div>
               <div className="border-b-[1px] border-rich-black pb-[33px] pt-[43px]">
-                <h3 className="text-center font-inter font-normal text-xxl text-rich-black leading-[120%]">
+                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
                   {" "}
                   {counters.counter2}+
                 </h3>
@@ -97,7 +104,7 @@ const Header = () => {
                 </p>
               </div>
               <div className="border-b-[1px] border-rich-black pb-[33px] pt-[43px]">
-                <h3 className="text-center font-inter font-normal text-xxl text-rich-black leading-[120%]">
+                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
                   {" "}
                   {counters.counter3}+
                 </h3>
