@@ -6,7 +6,7 @@ const LatestBlog = () => {
   return (
     <div className="bg-[#eceae7] ">
       <div className="container max-w-[1152px] mx-auto px-3">
-        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] flex  flex-col justify-center items-center lg:mr-8 lg:items-start border-[#2B2B2B]">
+        <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px]  lg:mr-8 lg:items-start border-[#2B2B2B]">
           <div className="flex items-center">
             <span>
               {" "}
