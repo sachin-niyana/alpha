@@ -34,7 +34,7 @@ const LatestBlog = () => {
                       Esther Howard
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
+                      Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                       sartorial out celiac af beard sartorial.{" "}
                     </p>
                   </div>
@@ -58,7 +58,7 @@ const LatestBlog = () => {
                       Esther Howard
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
+                      Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                       sartorial out celiac af beard sartorial.{" "}
                     </p>
                   </div>
@@ -82,7 +82,7 @@ const LatestBlog = () => {
                       Esther Howard
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
-                      Hipster ipsum tattooed brunch I'm baby. Shaman venmo
+                      Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                       sartorial out celiac af beard sartorial.{" "}
                     </p>
                   </div>

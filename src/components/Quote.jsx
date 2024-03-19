@@ -19,7 +19,7 @@ const Quote = () => {
 
           <div className="flex items-center justify-center mt-[29px] flex-col">
             <Image
-              src="/assets/images/quotes/png/esther-howard.png"
+              src="/assets/images/quotes/esther-howard.png"
               width={115.51}
               height={106.91}
               alt="esther-howard"
@@ -31,10 +31,10 @@ const Quote = () => {
               Marketing Coordinator
             </p>
             <p className="text-sm font-normal mt-[15px]  font-inter text-dark-gray max-w-[560px] text-center">
-              Hipster ipsum tattooed brunch I'm baby. Shaman venmo sartorial out
-              celiac af beard sartorial. Trade shabby cleanse actually chic
-              franzen freegan. Dsa shabby pack etsy mumblecore lyft letterpress
-              church-key. Pinterest dreamcatcher{" "}
+              Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
+              sartorial out celiac af beard sartorial. Trade shabby cleanse
+              actually chic franzen freegan. Dsa shabby pack etsy mumblecore
+              lyft letterpress church-key. Pinterest dreamcatcher{" "}
             </p>
           </div>
         </div>
