@@ -36,7 +36,10 @@ const Quote = () => {
   return (
     <>
       <div className="bg-[#2B2B2B] pt-[96px] pb-[173px] relative overflow-hidden">
-        <span className="absolute right-[3%] bottom-[8%] animate-ping"> <DoubleCircleVetor /> </span>
+        <span className="absolute right-[3%] bottom-[8%] animate-ping">
+          {" "}
+          <DoubleCircleVetor />{" "}
+        </span>
         <div className="container max-w-[1152px] mx-auto px-3">
           <div className="xl:mr-9">
             <div className="flex items-center">
@@ -68,7 +71,7 @@ const Quote = () => {
                 <div className="flex justify-center">
                   {" "}
                   <p className="text-sm font-normal mt-[15px]  font-inter text-dark-gray max-w-[560px] text-center">
-                    Hipster ipsum tattooed brunch I'm baby. Shaman venmo
+                    Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                     sartorial out celiac af beard sartorial. Trade shabby
                     cleanse actually chic franzen freegan. Dsa shabby pack etsy
                     mumblecore lyft letterpress church-key. Pinterest
@@ -95,7 +98,7 @@ const Quote = () => {
                 <div className="flex justify-center">
                   {" "}
                   <p className="text-sm font-normal mt-[15px]  font-inter text-dark-gray max-w-[560px] text-center">
-                    Hipster ipsum tattooed brunch I'm baby. Shaman venmo
+                    Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                     sartorial out celiac af beard sartorial. Trade shabby
                     cleanse actually chic franzen freegan. Dsa shabby pack etsy
                     mumblecore lyft letterpress church-key. Pinterest

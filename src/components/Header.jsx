@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
   return (
     <div className=" max-w-[1440px] mx-auto relative">
-      <div className="absolute md:block hidden right-0 bottom-0 animate-pulse">
+      <div className="absolute md:block hidden right-0 bottom-[-8%] animate-pulse">
         <HalfCircel />
       </div>
       <Sidebar />
@@ -75,7 +75,7 @@ const Header = () => {
                 />
               </div>
             </div>
-            <div className="relative lg:h-[439px]">
+            <div className="relative lg:h-[449px]">
               <Image
                 className="lg:absolute lg:min-w-[1112px] right-0 w-full"
                 width={1087}

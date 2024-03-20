@@ -22,7 +22,9 @@ const Sidebar = ({ children }) => {
     <div className="bg-mirage">
       <div className="container pt-[13px] max-w-[1080px] mx-auto xl:ps-[25px] xl:pe-3 px-3">
         <div className="flex justify-between items-start border-b-[1px] pb-[23px] ">
-          <Logo />
+          <Link href="#">
+            <Logo />
+          </Link>
           <div className="relative flex">
             {/* Overlay */}
             {isSidebarOpen && (
