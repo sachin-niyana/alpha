@@ -5,7 +5,7 @@ import { BigBackgroungA, FacebookIcon, InstagramIcon, LinkdinIcon } from './comm
 const Footer = () => {
     return (
         <div className='bg-[#1E1E1E] mt-[-1px] relative overflow-hidden'>
-            <div className='absolute top-[-56%] sm:top-[-57%] md:top-[-55%] lg:top-[-35.4%]'> <BigBackgroungA /> </div>
+            <div className='absolute top-[-56%] sm:top-[-57%] md:top-[-55%] lg:top-[-35.4%] animate-pulse'> <BigBackgroungA /> </div>
             <div className="container max-w-[1152px] xl:pl-[6px] mx-auto px-3">
                 <div className='lg:mr-8 relative'>
                     <div className='flex flex-wrap pb-[23px] pt-[90px] md:pt-[130px] lg:pt-[229px]'>

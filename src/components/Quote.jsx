@@ -5,6 +5,7 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
 import {
+  DoubleCircleVetor,
   HalfGradientCircle,
   SliderNextArrow,
   SliderPrevArrow,
@@ -34,9 +35,10 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pt-[96px] pb-[173px]">
+      <div className="bg-[#2B2B2B] pt-[96px] pb-[173px] relative overflow-hidden">
+        <span className="absolute right-[3%] bottom-[8%] animate-ping"> <DoubleCircleVetor /> </span>
         <div className="container max-w-[1152px] mx-auto px-3">
-          <div className="xl:mr-8">
+          <div className="xl:mr-9">
             <div className="flex items-center">
               <span>
                 {" "}
@@ -57,7 +59,7 @@ const Quote = () => {
                     alt="esther-howard"
                   />
                 </div>
-                <h4 className="font-semibold text-md mt-[15px] text-center font-inter">
+                <h4 className="font-semibold text-md mt-[15px] bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text text-center font-inter">
                   Esther Howard
                 </h4>
                 <p className="text-sm font-normal text-center  text-dark-gray font-inter">
@@ -84,7 +86,7 @@ const Quote = () => {
                     alt="esther-howard"
                   />
                 </div>
-                <h4 className="font-semibold text-md mt-[15px] text-center font-inter">
+                <h4 className="font-semibold text-md mt-[15px] bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text text-center font-inter">
                   Esther Howard
                 </h4>
                 <p className="text-sm font-normal text-center  text-dark-gray font-inter">
