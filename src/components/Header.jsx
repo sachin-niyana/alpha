@@ -64,7 +64,7 @@ const Header = () => {
                   width={180}
                   height={359}
                   src="/assets/images/header/study-2.png"
-                  alt="study"
+                  alt="study-2"
                 />
                 <Image
                   className="sm:hidden block md:mt-[185px] sm:mt-28 my-10"
