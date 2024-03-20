@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from "react";
 import Sidebar from "./Sidebar";
 import Image from "next/image";
-import { RightArrow } from "./common/Icon";
+import { HalfCircel, RightArrow } from "./common/Icon";
 
 const Header = () => {
   const [counters, setCounters] = useState({
@@ -28,6 +28,9 @@ const Header = () => {
     <>
       <Sidebar />
       <div className="container max-w-[1080px] mx-auto px-3 relative">
+        <div className="absolute right-[-16%] bottom-0">
+          <HalfCircel />
+        </div>
         <Image
           className="absolute right-[101%] top-[-10%] h-[604px]"
           width={170}
@@ -38,12 +41,12 @@ const Header = () => {
         <div className="flex lg:flex-row flex-col items-center lg:border-e-[1px] border-rich-black">
           <div className="flex flex-col w-full border-e-[1px] border-rich-black">
             <div className="flex sm:flex-row flex-col sm:justify-between justify-center">
-              <div className="flex flex-col justify-center">
+              <div className="flex flex-col">
                 <div className="bg-rich-black h-[43px] w-[1px] xl:ms-[13px]"></div>
                 <p className="font-inter font-normal sm:text-start text-center text-md text-rich-black pt-[26px] tracking-widest uppercase">
                   B2B Sales Agency
                 </p>
-                <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] xl:max-w-[550px] max-w-[480px] pt-[9px]">
+                <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[550px] sm:max-w-[470px] max-w-[380px] pt-[9px]">
                   Corporate marketing agency{" "}
                 </h1>
                 <div className="flex gap-2.5 items-center sm:mx-0 mx-auto mt-10 group max-w-[140px]">
@@ -83,7 +86,7 @@ const Header = () => {
             </div>
           </div>
           <div className="w-[153px]">
-            <div className="absolute lg:top-[4%] top-[2%] right-[4%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
+            <div className="absolute lg:top-[4%] top-[2%] md:right-[4%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
             <div className="flex lg:flex-col flex-row justify-center lg:gap-0 sm:gap-20 gap-10 lg:pb-0 pb-10">
               <div className="border-b-[1px] border-rich-black pb-[33px] pt-[43px]">
                 <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
