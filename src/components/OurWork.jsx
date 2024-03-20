@@ -6,6 +6,7 @@ const OurWork = () => {
   return (
     <div>
       <div className="container max-w-[1152px] mx-auto px-3">
+        <div className="h-[229px] w-[1px]"></div>
         <div className="sm:border-r-[1px] lg:mr-9 lg:items-start border-rich-black">
           <div className="flex flex-wrap justify-center">
             <div className="lg:w-[70%] xl:w-[60%]">
