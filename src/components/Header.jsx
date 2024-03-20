@@ -25,12 +25,12 @@ const Header = () => {
     return () => clearInterval(interval);
   }, []);
   return (
-    <>
+    <div className=" max-w-[1440px] mx-auto relative">
+      <div className="absolute md:block hidden right-0 bottom-0">
+        <HalfCircel />
+      </div>
       <Sidebar />
       <div className="container max-w-[1080px] mx-auto px-3 relative">
-        <div className="absolute right-[-16%] bottom-0">
-          <HalfCircel />
-        </div>
         <Image
           className="absolute right-[101%] top-[-10%] h-[604px]"
           width={170}
@@ -49,7 +49,7 @@ const Header = () => {
                 <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[550px] sm:max-w-[470px] max-w-[380px] pt-[9px]">
                   Corporate marketing agency{" "}
                 </h1>
-                <div className="flex gap-2.5 items-center sm:mx-0 mx-auto mt-10 group max-w-[140px]">
+                <div className="flex gap-2.5 items-center sm:mx-0 mx-auto md:mt-10 mt-7 group max-w-[140px]">
                   <p className="font-inter font-thin text-md text-rich-black">
                     Our work
                   </p>
@@ -67,7 +67,7 @@ const Header = () => {
                   alt="study"
                 />
                 <Image
-                  className="sm:hidden block md:mt-[185px] sm:mt-28 mt-10"
+                  className="sm:hidden block md:mt-[185px] sm:mt-28 my-10"
                   width={180}
                   height={359}
                   src="/assets/images/header/study.png"
@@ -119,7 +119,7 @@ const Header = () => {
           </div>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
