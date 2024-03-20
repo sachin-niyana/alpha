@@ -7,6 +7,7 @@ const GetAnswer = () => {
         <div className="bg-[#2B2B2B] relative">
             <span className="absolute top-9 animate-pulse"> <AlhpaName /> </span>
             <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
+                <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
                 <div className=" flex flex-wrap justify-center pb-16 sm:pb-[115px]">
                     <div className="sm:w-[60%]">
                         <div className="flex items-center">

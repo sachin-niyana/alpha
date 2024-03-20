@@ -35,9 +35,10 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden">
-        <span className="absolute right-[3%] bottom-[8%] animate-ping"> <DoubleCircleVetor /> </span>
+      <div className="bg-[#2B2B2B] pt-[60px] sm:pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden">
+        <span className="absolute right-[3%] bottom-[8%] animate-ping hidden md:block"> <DoubleCircleVetor /> </span>
         <div className="container max-w-[1152px] mx-auto px-3">
+          <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
           <div className="xl:mr-9">
             <div className="flex items-center">
               <span>
