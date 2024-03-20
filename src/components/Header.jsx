@@ -32,7 +32,7 @@ const Header = () => {
       <Sidebar />
       <div className="container max-w-[1080px] mx-auto px-3 relative">
         <Image
-          className="absolute right-[101%] top-[-10%] h-[604px]"
+          className="absolute right-[101%] top-[-8%] h-[604px]"
           width={170}
           height={604}
           src="/assets/images/header/alpha.png"
@@ -46,8 +46,9 @@ const Header = () => {
                 <p className="font-inter font-normal sm:text-start text-center text-md text-rich-black pt-[26px] tracking-widest uppercase">
                   B2B Sales Agency
                 </p>
-                <h1 className="font-inter sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[550px] sm:max-w-[470px] max-w-[380px] pt-[9px]">
+                <h1 className="font-inter relative sm:text-start text-center sm:mx-0 mx-auto font-normal lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[550px] sm:max-w-[470px] max-w-[230px] pt-[9px]">
                   Corporate marketing agency{" "}
+                  <span className="lg:w-[500px] z-[-1] md:w-[380px] sm:w-[280px] w-[230px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[55%]"></span>
                 </h1>
                 <div className="flex gap-2.5 items-center sm:mx-0 mx-auto md:mt-10 mt-7 group max-w-[140px]">
                   <p className="font-inter font-thin text-md text-rich-black">
