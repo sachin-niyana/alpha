@@ -26,7 +26,7 @@ const Header = () => {
   }, []);
   return (
     <div className=" max-w-[1440px] mx-auto relative">
-      <div className="absolute md:block hidden right-0 bottom-0">
+      <div className="absolute md:block hidden right-0 bottom-0 animate-pulse">
         <HalfCircel />
       </div>
       <Sidebar />

@@ -1,10 +1,11 @@
 import React from "react";
-import { HalfGradientCircle } from "./common/Icon";
+import { AlhpaName, HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
 
 const GetAnswer = () => {
     return (
-        <div className="bg-[#2B2B2B]">
+        <div className="bg-[#2B2B2B] relative">
+            <span className="absolute top-9 animate-pulse"> <AlhpaName /> </span>
             <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
                 <div className=" flex flex-wrap justify-center pb-16 sm:pb-[115px]">
                     <div className="sm:w-[60%]">
@@ -18,7 +19,7 @@ const GetAnswer = () => {
                             </h2>
                         </div>
                         <h2 className="uppercase text-[30px] md:text-[40px] xl:text-2xl xl:ml-5 font-normal text-light-white font-inter">
-                            GET YOUR <span className="text-red-500">ANSWER</span>
+                            GET YOUR <span className="bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text">ANSWER</span>
                         </h2>
                         <form action="" className=" mt-6 md:mt-[48px]">
                             <input

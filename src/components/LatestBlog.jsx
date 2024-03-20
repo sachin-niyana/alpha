@@ -1,10 +1,12 @@
 import React from "react";
-import { HalfGradientCircle } from "./common/Icon";
+import { BoxeVetor, HalfCircleVetor, HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
 
 const LatestBlog = () => {
   return (
-    <div className="bg-[#eceae7] ">
+    <div className="bg-[#eceae7] relative overflow-hidden">
+      <span className="absolute bottom-[10%] right-[2%] animate-pulse hidden md:block "> <BoxeVetor /> </span>
+      <span className="absolute top-[40%] left-[2%] animate-spin hidden md:block "> <HalfCircleVetor /> </span>
       <div className="container max-w-[1152px] mx-auto px-3">
         <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px]  lg:mr-8 lg:items-start border-[#2B2B2B]">
           <div className="flex items-center">
@@ -12,7 +14,7 @@ const LatestBlog = () => {
               {" "}
               <HalfGradientCircle />{" "}
             </span>{" "}
-            <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal text-rich-black font-inter">
+            <h2 className="uppercase text-xl sm:text-2xl  ml-[-24px] font-normal text-rich-black font-inter">
               LATEST BLOG
             </h2>
           </div>

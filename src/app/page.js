@@ -7,6 +7,7 @@ import GetAnswer from "@/components/GetAnswer";
 import Quote from "@/components/Quote";
 import Footer from "@/components/Footer";
 import AboutUs from "@/components/AboutUs";
+import OurWork from "@/components/OurWork";
 
 export default function Home() {
   return (
@@ -14,6 +15,7 @@ export default function Home() {
       <BackToTop />
       <Header />
       <AboutUs />
+      <OurWork />
       <Quote />
       <LatestBlog />
       <GetAnswer />
