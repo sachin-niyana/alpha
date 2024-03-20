@@ -13,12 +13,12 @@ import {
 
 const Quote = () => {
   const CustomPrevArrow = ({ onClick }) => (
-    <button className="absolute top-[53%] right-[0%] z-[10]" onClick={onClick}>
+    <button className="absolute top-[107%] sm:top-[53%] right-[18%] sm:right-[0%] z-[10]" onClick={onClick}>
       <SliderPrevArrow />
     </button>
   );
   const CustomNextArrow = ({ onClick }) => (
-    <button className="absolute top-[53%] left-[0%]  z-[10] " onClick={onClick}>
+    <button className="absolute top-[107%] sm:top-[53%] left-[18%] sm:left-[0%]  z-[10] " onClick={onClick}>
       {" "}
       <SliderNextArrow />
     </button>
@@ -35,7 +35,7 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pt-[96px] pb-[173px] relative overflow-hidden">
+      <div className="bg-[#2B2B2B] pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden">
         <span className="absolute right-[3%] bottom-[8%] animate-ping"> <DoubleCircleVetor /> </span>
         <div className="container max-w-[1152px] mx-auto px-3">
           <div className="xl:mr-9">

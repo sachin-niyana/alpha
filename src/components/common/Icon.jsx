@@ -301,7 +301,7 @@ export const BigBackgroungA = () => {
 };
 export const SliderPrevArrow = () => {
   return (
-    <svg
+    <svg className="slider_arrow"
       width="92"
       height="16"
       viewBox="0 0 92 16"
@@ -317,7 +317,7 @@ export const SliderPrevArrow = () => {
 };
 export const SliderNextArrow = () => {
   return (
-    <svg
+    <svg className="slider_arrow"
       width="92"
       height="16"
       viewBox="0 0 92 16"
