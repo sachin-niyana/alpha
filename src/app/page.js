@@ -8,6 +8,7 @@ import Quote from "@/components/Quote";
 import Footer from "@/components/Footer";
 import AboutUs from "@/components/AboutUs";
 import OurWork from "@/components/OurWork";
+import Services from "@/components/Services";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <BackToTop />
       <Header />
       <AboutUs />
+      <Services />
       <OurWork />
       <Quote />
       <LatestBlog />

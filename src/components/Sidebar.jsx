@@ -36,7 +36,7 @@ const Sidebar = ({ children }) => {
 
             {/* Sidebar */}
             <div
-              className={`sidebar bg-white end-0 fixed top-0 w-full max-w-[320px] h-full transition-transform transform z-50 ${
+              className={`sidebar bg-white end-0 fixed top-0 w-full max-w-[375px] h-full transition-transform transform z-50 ${
                 isSidebarOpen ? "translate-x-0" : "-translate-x-[-100%]"
               }`}
             >

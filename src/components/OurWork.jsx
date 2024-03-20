@@ -6,7 +6,7 @@ const OurWork = () => {
   return (
     <div>
       <div className="container max-w-[1152px] mx-auto px-3">
-        <div className="sm:border-r-[1px] lg:mr-9 lg:items-start border-[#2B2B2B]">
+        <div className="sm:border-r-[1px] lg:mr-9 lg:items-start border-rich-black">
           <div className="flex flex-wrap justify-center">
             <div className="lg:w-[70%] xl:w-[60%]">
               <div className="flex items-center">
@@ -20,7 +20,7 @@ const OurWork = () => {
               </div>
               <div className="flex flex-wrap mt-10 sm:mt-[67px] justify-center items-center">
                 <div className="sm:w-[50%] md:w-[43%] flex justify-end items-end">
-                  <div className="border-[#2b2b2b] border-[1px] xl:border-r-[0px] px-[14px] pt-[41px]  max-w-[284px]  md:max-w-[284.12px] pb-[51px] relative">
+                  <div className="border-rich-black border-[1px] xl:border-r-[0px] px-[14px] pt-[41px]  max-w-[284px]  md:max-w-[284.12px] pb-[51px] relative">
                     <h4 className="text-[40px] font-normal text-rich-black font-inter absolute bg-[#ECEAE7] top-[-15%] left-[10%]">
                       01
                     </h4>
@@ -34,7 +34,7 @@ const OurWork = () => {
                   </div>
                 </div>
                 <div className="sm:w-[50%] md:w-[57%] flex sm:justify-center sm:items-center xl:justify-start xl:items-start">
-                  <div className="border-[#2b2b2b] border-[1px] sm:border-t-[1px] px-[14px] pt-[41px]  max-w-[284px]  md:max-w-[284.12px] pb-[51px] relative">
+                  <div className="border-rich-black border-[1px] sm:border-t-[1px] px-[14px] pt-[41px]  max-w-[284px]  md:max-w-[284.12px] pb-[51px] relative">
                     <h4 className="text-[40px] font-normal text-rich-black font-inter absolute bg-[#ECEAE7] top-[-15%] left-[10%]">
                       02
                     </h4>
@@ -48,7 +48,7 @@ const OurWork = () => {
                   </div>
                 </div>
                 <div className="sm:w-[50%] md:w-[43%] flex justify-end items-end">
-                  <div className="border-[#2b2b2b] border-[1px]  border-t-[0px] xl:border-r-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
+                  <div className="border-rich-black border-[1px]  border-t-[0px] xl:border-r-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
                     <h4 className="text-[40px] font-normal text-rich-black font-inter absolute bg-[#ECEAE7] top-[-15%] left-[10%]">
                       03
                     </h4>
@@ -62,7 +62,7 @@ const OurWork = () => {
                   </div>
                 </div>
                 <div className="sm:w-[50%] md:w-[57%] flex sm:justify-center sm:items-center xl:justify-start xl:items-start">
-                  <div className="border-[#2b2b2b] border-[1px]  border-t-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
+                  <div className="border-rich-black border-[1px]  border-t-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
                     <h4 className="text-[40px] font-normal text-rich-black font-inter absolute bg-[#ECEAE7] top-[-15%] left-[10%]">
                       04
                     </h4>

@@ -7,7 +7,7 @@ const AboutUs = () => {
     <div className="container max-w-[1080px] mx-auto px-3" id="ABOUT-US">
       <div className="flex md:items-end md:flex-row justify-between flex-col border-e-[1px] border-rich-black lg:border-t-[0px] border-t-[1px] ">
         <div className="flex flex-col">
-          <div className="bg-rich-black md:h-[121px] h-[100px] w-[1px] xl:ms-[13px]"></div>
+          <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] xl:ms-[13px]"></div>
           <div className="flex xl:translate-x-[-5%] items-center md:mt-8 md:justify-start justify-center">
             <span>
               {" "}
@@ -17,7 +17,7 @@ const AboutUs = () => {
               ABOUT US
             </h2>
           </div>
-          <p className="font-inter md:text-start text-center font-normal text-sm max-w-[709px] capitalize xl:ms-[13px]">
+          <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[709px] capitalize xl:ms-[13px]">
             Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo sartorial
             out celiac af beard sartorial. Trade shabby cleanse actually chic
             franzen freegan. Dsa shabby pack etsy mumblecore lyft letterpress
@@ -41,12 +41,12 @@ const AboutUs = () => {
               <h4 className="font-inter lg:mx-0 mx-auto font-semibold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[143px] mt-[15px] leading-[125%] capitalize">
                 Unearth new opportunities
               </h4>
-              <p className="font-inter lg:mx-0 mx-auto font-normal lg:text-start text-center text-sm max-w-[294px] capitalize mt-[13px]">
+              <p className="font-inter lg:mx-0 mx-auto text-gray font-normal lg:text-start text-center text-sm max-w-[294px] capitalize mt-[13px]">
                 Speak to ideal clients that are outside your network. Discover
                 new markets and grow your business
               </p>
             </div>
-            <div className="pt-12 pb-[18px] px-[19px] border-[1px] border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
+            <div className="pt-12 pb-[18px] px-[19px] border-[1px] min-[480px]:border-s-0 min-[480px]:border-t-[1px] border-t-0 border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
               <Image
                 className="lg:mx-0 mx-auto"
                 width={58}
@@ -57,7 +57,7 @@ const AboutUs = () => {
               <h4 className="font-inter lg:mx-0 mx-auto font-semibold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[217px] mt-[15px] leading-[125%] capitalize">
                 Leave prospecting to the experts
               </h4>
-              <p className="font-inter lg:mx-0 mx-auto lg:text-start text-center font-normal text-sm max-w-[294px] capitalize mt-[13px]">
+              <p className="font-inter text-gray lg:mx-0 mx-auto lg:text-start text-center font-normal text-sm max-w-[294px] capitalize mt-[13px]">
                 Our fully managed outreach service delivers a reliable flow of
                 leads, reducing your cost per sale
               </p>
