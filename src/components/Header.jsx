@@ -50,7 +50,7 @@ const Header = () => {
                   Corporate marketing agency{" "}
                   <span className="lg:w-[500px] z-[-1] md:w-[380px] sm:w-[280px] w-[230px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[55%]"></span>
                 </h1>
-                <div className="flex gap-2.5 items-center sm:mx-0 mx-auto md:mt-10 mt-7 group max-w-[140px]">
+                <div className="flex gap-2.5 items-center sm:mx-0 cursor-pointer mx-auto md:mt-10 mt-7 group max-w-[140px]">
                   <p className="font-inter font-thin text-md text-rich-black">
                     Our work
                   </p>

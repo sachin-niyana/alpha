@@ -22,18 +22,3 @@
 .animate-ping {
   animation: ping 5s cubic-bezier(0, 0, 0.2, 1) infinite;
 }
-
-input {
-  outline: none !important;
-  color: white !important;
-}
-
-@keyframes spin {
-  from {
-    transform: rotate(0deg);
-  }
-
-  to {
-    transform: rotate(360deg);
-  }
-}

@@ -4,7 +4,7 @@ import { CirclesVector, DoubleTringalVector, HalfGradientCircle } from "./common
 
 const OurWork = () => {
   return (
-    <div className="relative">
+    <div className="relative" id="work">
       <div className="absolute bottom-[45px] left-[35px] hidden md:block"> <DoubleTringalVector /> </div>
       <span className="absolute top-[10%] right-[6%] hidden md:block"> <CirclesVector /> </span>
       <div className="container max-w-[1152px] mx-auto px-3">

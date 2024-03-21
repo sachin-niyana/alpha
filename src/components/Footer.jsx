@@ -18,9 +18,9 @@ const Footer = () => {
                         </div>
                         <div className='w-full md:w-4/12 flex items-center justify-center'>
                             <ul className='flex items-center gap-[17px] mb-4 md:mb-0'>
-                                <li><a href="" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>About Us</a></li>
-                                <li><a href="" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>Our Work</a></li>
-                                <li><a href="" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>Services</a></li>
+                                <li><a href="#about" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>About Us</a></li>
+                                <li><a href="#work" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>Our Work</a></li>
+                                <li><a href="#services" className='font-normal text-sm font-inter transition-all duration-300 ease-in-out hover:text-white text-bombay'>Services</a></li>
                             </ul>
                         </div>
                         <div className='w-full md:w-4/12 flex justify-center md:justify-end md:items-end'>

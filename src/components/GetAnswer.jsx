@@ -25,10 +25,10 @@ const GetAnswer = () => {
                         <form action="" className=" mt-6 md:mt-[48px]">
                             <input
                                 type="text"
-                                className="w-[90%] lg:max-w-[592.96px]  border-[1px] border-[#b9b9b9] bg-transparent mb-6 md:mb-[48px] pt-3 sm:pt-[18px] pl-3 sm:pl-[25px] pb-[60px] sm:pb-[82px] lg:pr-[360px]"
+                                className="w-[90%] lg:max-w-[592.96px]  border-[1px] text-white outline-0 border-[#b9b9b9] bg-transparent mb-6 md:mb-[48px] pt-3 sm:pt-[18px] pl-3 sm:pl-[25px] pb-[60px] sm:pb-[82px] lg:pr-[360px]"
                                 placeholder="Type your Question here.."
                             />
-                            <button className="uppercase text-sm font-semibold text-light-white px-[38.5px] py-[15.5px] bg-linear-gradient-btn font-inter">
+                            <button className="uppercase text-sm font-semibold hover:text-black hover:border-[#b9b9b9] border-transparent border-[1px] transition-all duration-300 ease-in-out text-light-white px-[38px] py-[15px] bg-linear-gradient-btn font-inter">
                                 SEND MESSAGE
                             </button>
                         </form>

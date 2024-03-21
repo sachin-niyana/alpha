@@ -1,6 +1,6 @@
 "use client";
 import React, { useEffect, useState } from "react";
-import { HalfGradientCircle } from "./common/Icon";
+import { AlhpaName, HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
 
 const Services = () => {
@@ -21,7 +21,9 @@ const Services = () => {
   }, []);
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="bg-rich-black ">
+    <div className="bg-rich-black  relative" id="services">
+      <span className="absolute top-[11%] animate-pulse"> <AlhpaName /> </span>
+
       <div className="container max-w-[1152px] mx-auto px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex md:flex-row flex-col lg:gap-[90px] gap-10 mt-4">
@@ -36,51 +38,46 @@ const Services = () => {
               </h2>
             </div>
             <button
-              className={`${
-                activeTab === 0
-                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white mt-[50px]"
-                  : "text-dark-gray mt-[50px]"
-              } flex-1 py-[26px] px-7 border-[1px] focus:outline-none font-inter font-semibold text-md`}
+              className={`${activeTab === 0
+                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white mt-[50px]"
+                : "text-dark-gray mt-[50px]"
+                } flex-1 py-[26px] px-7 border-[1px] focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(0)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${
-                activeTab === 1
-                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                  : "text-dark-gray"
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${activeTab === 1
+                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                : "text-dark-gray"
+                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(1)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${
-                activeTab === 2
-                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                  : "text-dark-gray"
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${activeTab === 2
+                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                : "text-dark-gray"
+                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(2)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${
-                activeTab === 3
-                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                  : "text-dark-gray"
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${activeTab === 3
+                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                : "text-dark-gray"
+                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(3)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${
-                activeTab === 4
-                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                  : "text-dark-gray"
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${activeTab === 4
+                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                : "text-dark-gray"
+                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(4)}
             >
               Unearth new opportunities
