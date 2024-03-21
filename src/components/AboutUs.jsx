@@ -4,8 +4,11 @@ import Image from "next/image";
 
 const AboutUs = () => {
   return (
-    <div className="relative" id="about">
-      <span className="absolute bottom-[10%] left-[1.5%] hidden md:block animate-pulse"> <CircleLineVector /> </span>
+    <div className="relative" id="about-us">
+      <span className="absolute bottom-[10%] left-[1.5%] hidden md:block animate-pulse">
+        {" "}
+        <CircleLineVector />{" "}
+      </span>
       <div className="container max-w-[1080px] mx-auto px-3" id="ABOUT-US">
         <div className="flex md:items-end md:flex-row justify-between flex-col border-e-[1px] border-rich-black lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
@@ -20,13 +23,13 @@ const AboutUs = () => {
               </h2>
             </div>
             <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[709px] capitalize xl:ms-[13px]">
-              Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo sartorial
-              out celiac af beard sartorial. Trade shabby cleanse actually chic
-              franzen freegan. Dsa shabby pack etsy mumblecore lyft letterpress
-              church-key. Pinterest dreamcatcher asymmetrical vibecession vegan
-              neutra bun vexillologist. Chips vape you diy locavore dreamcatcher
-              mood edison kombucha. Kogi retro chambray bird on. Organic
-              farm-to-table iceland knausgaard heirloom.
+              Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
+              sartorial out celiac af beard sartorial. Trade shabby cleanse
+              actually chic franzen freegan. Dsa shabby pack etsy mumblecore
+              lyft letterpress church-key. Pinterest dreamcatcher asymmetrical
+              vibecession vegan neutra bun vexillologist. Chips vape you diy
+              locavore dreamcatcher mood edison kombucha. Kogi retro chambray
+              bird on. Organic farm-to-table iceland knausgaard heirloom.
             </p>
             <button className="xl:ms-[13px] bg-dark-black border-[1px] border-transparent hover:border-dark-black hover:bg-[#ECEAE7] hover:text-dark-black mt-6 transition-all ease-in-out duration-300 py-[15px] px-[34px] font-inter font-semibold text-sm leading-[150%] text-light-white max-w-[181px] md:mx-0 mx-auto">
               CONTACT US

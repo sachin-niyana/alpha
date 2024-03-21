@@ -41,7 +41,10 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pt-[60px] sm:pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden">
+      <div
+        className="bg-[#2B2B2B] pt-[60px] sm:pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden"
+        id="quote"
+      >
         <span className="absolute right-[3%] bottom-[8%] animate-ping hidden md:block">
           {" "}
           <DoubleCircleVetor />{" "}
