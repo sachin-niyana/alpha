@@ -51,7 +51,7 @@ const OurWork = () => {
                   </div>
                 </div>
                 <div className="sm:w-[50%] md:w-[43%] flex justify-end items-end">
-                  <div className="border-rich-black border-[1px]  border-t-[0px] xl:border-r-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
+                  <div className="border-rich-black border-[1px] bg-[#ECEAE7]  border-t-[0px] xl:border-r-[0px] lg:border-t-[0px] px-[14px] pt-[41px] max-w-[284px]   md:max-w-[284.12px] pb-[51px] relative">
                     <h4 className="text-[40px] font-normal text-rich-black font-inter absolute bg-[#ECEAE7] top-[-15%] left-[10%]">
                       03
                     </h4>
