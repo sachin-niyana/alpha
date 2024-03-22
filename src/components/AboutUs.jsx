@@ -6,35 +6,39 @@ const AboutUs = () => {
   return (
     <div className="relative" id="about-us">
       <span className="absolute bottom-[10%] left-[1.5%] hidden md:block animate-pulse">
-        {" "}
-        <CircleLineVector />{" "}
+        <CircleLineVector />
       </span>
       <div className="container max-w-[1080px] mx-auto px-3" id="ABOUT-US">
-        <div className="flex md:items-end md:flex-row justify-between flex-col border-e-[1px] border-rich-black lg:border-t-[0px] border-t-[1px] ">
+        <div className="flex lg:items-end md:items-center md:flex-row justify-between flex-col border-e-[1px] border-rich-black me-0 lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
-            <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] xl:ms-[13px]"></div>
-            <div className="flex xl:translate-x-[-5%] items-center md:mt-8 md:justify-start justify-center">
+            <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] lg:ms-8"></div>
+            <div className="flex xl:translate-x-[-3%] items-center md:mt-8 md:justify-start justify-center">
               <span>
-                {" "}
-                <HalfGradientCircle />{" "}
-              </span>{" "}
-              <h2 className="uppercase md:text-xxl lg:text-2xl text-xl lg:ml-[-22px] md:ml-[-18px] ml-[-14px] font-normal font-inter text-rich-black">
+                <HalfGradientCircle />
+              </span>
+              <h2 className="uppercase md:text-xxl lg:text-2xl text-xl lg:ml-[-22px] md:ml-[-18px] ml-[-14px] font-bold font-inter text-rich-black">
                 ABOUT US
               </h2>
             </div>
-            <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[709px] capitalize xl:ms-[13px]">
-              Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-              sartorial out celiac af beard sartorial. Trade shabby cleanse
-              actually chic franzen freegan. Dsa shabby pack etsy mumblecore
-              lyft letterpress church-key. Pinterest dreamcatcher asymmetrical
-              vibecession vegan neutra bun vexillologist. Chips vape you diy
-              locavore dreamcatcher mood edison kombucha. Kogi retro chambray
-              bird on. Organic farm-to-table iceland knausgaard heirloom.
+            <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[680px] capitalize ">
+              For nearly a decade, Alpha² Partners have accelerated revenue
+              generation for global En-Tech (Energy Technology) businesses,
+              disruptive PR agencies, and many more.
             </p>
-            <button className="xl:ms-[13px] bg-dark-black border-[1px] border-transparent hover:border-dark-black hover:bg-[#ECEAE7] hover:text-dark-black mt-6 transition-all ease-in-out duration-300 py-[15px] px-[34px] font-inter font-semibold text-sm leading-[150%] text-light-white max-w-[181px] md:mx-0 mx-auto">
+            <p className="font-inter mt-6 md:text-start text-gray text-center font-normal text-sm max-w-[680px] capitalize ">
+              With over 23+ years senior experience from global PR agencies and
+              new business development within energy providers & technology
+              companies, we possess the market knowledge and insights to
+              generate new business opportunities within complex markets,
+              delivering exceptional results for our clients. Since inception,
+              we have been able to define the equation to deliver success, the
+              Alpha² way – consistently outperforming expectations and
+              committing to our clients’ success.
+            </p>
+            <button className=" bg-dark-black border-[1px] border-transparent hover:border-dark-black hover:bg-[#ECEAE7] hover:text-dark-black mt-6 transition-all ease-in-out duration-300 py-[15px] px-[34px] font-inter font-semibold text-sm leading-[150%] text-light-white max-w-[181px] md:mx-0 mx-auto">
               CONTACT US
             </button>
-            <div className="relative z-2 bg-[#ECEAE7] flex min-[480px]:flex-row flex-col justify-center md:mt-[131px] my-14 xl:ms-[13px] md:mb-[138px] md:me-5 lg:me-[45px]">
+            <div className="relative z-2 bg-[#ECEAE7] flex min-[480px]:flex-row flex-col justify-center md:mt-[54px] mt-7  md:me-5 lg:me-[45px]">
               <div className="pt-12 pb-[18px] px-[19px] border-[1px] border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
                 <Image
                   className="lg:mx-0 mx-auto"
@@ -71,7 +75,7 @@ const AboutUs = () => {
           </div>
           <div className="flex justify-center">
             <Image
-              className="max-w-[333px] md:max-h-[652px] max-h-[500px] object-cover"
+              className="max-w-[333px] md:max-h-[652px] max-h-[500px] object-cover md:mt-0 mt-7"
               width={333}
               height={652}
               src="/assets/images/about-us/learn.png"

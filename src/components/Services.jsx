@@ -22,7 +22,10 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div className="bg-rich-black  relative" id="services">
-      <span className="absolute top-[11%] animate-pulse"> <AlhpaName /> </span>
+      <span className="absolute top-[11%] animate-pulse">
+        {" "}
+        <AlhpaName />{" "}
+      </span>
 
       <div className="container max-w-[1152px] mx-auto px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
@@ -30,54 +33,58 @@ const Services = () => {
           <div className="flex flex-col max-w-[330px] justify-center mx-auto lg:mb-[101px] md:mb-12">
             <div className="flex items-center">
               <span>
-                {" "}
-                <HalfGradientCircle />{" "}
-              </span>{" "}
+                <HalfGradientCircle />
+              </span>
               <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal text-light-white font-inter">
                 Services
               </h2>
             </div>
             <button
-              className={`${activeTab === 0
-                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white mt-[50px]"
-                : "text-dark-gray mt-[50px]"
-                } flex-1 py-[26px] px-7 border-[1px] focus:outline-none font-inter font-semibold text-md`}
+              className={`${
+                activeTab === 0
+                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white mt-[50px]"
+                  : "text-dark-gray mt-[50px]"
+              } flex-1 py-[26px] px-7 border-[1px] focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(0)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${activeTab === 1
-                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                : "text-dark-gray"
-                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${
+                activeTab === 1
+                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                  : "text-dark-gray"
+              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(1)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${activeTab === 2
-                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                : "text-dark-gray"
-                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${
+                activeTab === 2
+                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                  : "text-dark-gray"
+              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(2)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${activeTab === 3
-                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                : "text-dark-gray"
-                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${
+                activeTab === 3
+                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                  : "text-dark-gray"
+              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(3)}
             >
               Unearth new opportunities
             </button>
             <button
-              className={`${activeTab === 4
-                ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
-                : "text-dark-gray"
-                } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              className={`${
+                activeTab === 4
+                  ? "bg-linear-gradient-btn border-x-0 border-b-0 border-t-rich-black text-white"
+                  : "text-dark-gray"
+              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
               onClick={() => setActiveTab(4)}
             >
               Unearth new opportunities
@@ -107,7 +114,6 @@ const Services = () => {
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb[33px] p-2 z-10 absolute min-[1440px]:top-[100%] top-0 min-[1440px]:right-9 right-0">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {" "}
                       {counters.counter1}+
                     </h3>
                     <p className="font-inter font-normal text-sm text-gray max-w-[80px] text-center mx-auto pb-[21px]">
@@ -140,7 +146,6 @@ const Services = () => {
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb[33px] p-2 z-10 absolute min-[1440px]:top-[100%] top-0 min-[1440px]:right-9 right-0">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {" "}
                       {counters.counter1}+
                     </h3>
                     <p className="font-inter font-normal text-sm text-gray max-w-[80px] text-center mx-auto pb-[21px]">
@@ -173,7 +178,6 @@ const Services = () => {
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb[33px] p-2 z-10 absolute min-[1440px]:top-[100%] top-0 min-[1440px]:right-9 right-0">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {" "}
                       {counters.counter1}+
                     </h3>
                     <p className="font-inter font-normal text-sm text-gray max-w-[80px] text-center mx-auto pb-[21px]">
@@ -206,7 +210,6 @@ const Services = () => {
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb[33px] p-2 z-10 absolute min-[1440px]:top-[100%] top-0 min-[1440px]:right-9 right-0">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {" "}
                       {counters.counter1}+
                     </h3>
                     <p className="font-inter font-normal text-sm text-gray max-w-[80px] text-center mx-auto pb-[21px]">
@@ -239,7 +242,6 @@ const Services = () => {
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb[33px] p-2 z-10 absolute min-[1440px]:top-[100%] top-0 min-[1440px]:right-9 right-0">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {" "}
                       {counters.counter1}+
                     </h3>
                     <p className="font-inter font-normal text-sm text-gray max-w-[80px] text-center mx-auto pb-[21px]">

@@ -11,8 +11,7 @@ const Footer = () => {
   return (
     <div className="bg-[#1E1E1E] mt-[-1px] relative overflow-hidden">
       <div className="absolute top-[-56%] sm:top-[-57%] md:top-[-55%] lg:top-[-35.4%] animate-pulse">
-        {" "}
-        <BigBackgroungA />{" "}
+        <BigBackgroungA />
       </div>
       <div className="container max-w-[1152px] xl:pl-[6px] mx-auto px-3">
         <div className="lg:mr-8 relative">
@@ -60,19 +59,19 @@ const Footer = () => {
                   className="transition-all duration-300 ease-in-out hover:translate-y-[-6px]"
                   href="https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Ffeed%2F&trk=login_reg_redirect"
                 >
-                  <LinkdinIcon />{" "}
+                  <LinkdinIcon />
                 </a>
                 <a
                   className="transition-all duration-300 ease-in-out hover:translate-y-[-6px]"
                   href="https://www.facebook.com/"
                 >
-                  <FacebookIcon />{" "}
+                  <FacebookIcon />
                 </a>
                 <a
                   className="transition-all duration-300 ease-in-out hover:translate-y-[-6px]"
                   href="https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2Fstories%2Fhighlights%2F17859310559785705%2F"
                 >
-                  <InstagramIcon />{" "}
+                  <InstagramIcon />
                 </a>
               </div>
             </div>

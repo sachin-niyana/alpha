@@ -6,21 +6,18 @@ const LatestBlog = () => {
   return (
     <div className="bg-[#eceae7] relative overflow-hidden" id="latest">
       <span className="absolute bottom-[10%] right-[2%] animate-pulse hidden md:block ">
-        {" "}
-        <BoxeVetor />{" "}
+        <BoxeVetor />
       </span>
       <span className="absolute top-[40%] left-[2%] animate-spin hidden md:block">
-        {" "}
-        <HalfCircleVetor />{" "}
+        <HalfCircleVetor />
       </span>
       <div className="container max-w-[1152px] mx-auto px-3">
         <div className="h-[148px] w-[1px] bg-[#2B2B2B] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
         <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px]  lg:mr-8 lg:items-start border-[#2B2B2B]">
           <div className="flex items-center">
             <span>
-              {" "}
-              <HalfGradientCircle />{" "}
-            </span>{" "}
+              <HalfGradientCircle />
+            </span>
             <h2 className="uppercase text-xl sm:text-2xl  ml-[-24px] font-normal text-rich-black font-inter">
               LATEST BLOG
             </h2>
@@ -44,7 +41,7 @@ const LatestBlog = () => {
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
                       Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                      sartorial out celiac af beard sartorial.
                     </p>
                   </div>
                 </div>
@@ -68,7 +65,7 @@ const LatestBlog = () => {
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
                       Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                      sartorial out celiac af beard sartorial.
                     </p>
                   </div>
                 </div>
@@ -92,7 +89,7 @@ const LatestBlog = () => {
                     </h3>
                     <p className="text-sm text-dark-gray font-inter font-normal">
                       Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
-                      sartorial out celiac af beard sartorial.{" "}
+                      sartorial out celiac af beard sartorial.
                     </p>
                   </div>
                 </div>

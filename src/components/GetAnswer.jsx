@@ -6,8 +6,7 @@ const GetAnswer = () => {
   return (
     <div className="bg-[#2B2B2B] relative" id="contect">
       <span className="absolute top-9 animate-pulse">
-        {" "}
-        <AlhpaName />{" "}
+        <AlhpaName />
       </span>
       <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
         <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
@@ -15,15 +14,14 @@ const GetAnswer = () => {
           <div className="sm:w-[60%]">
             <div className="flex items-center">
               <span>
-                {" "}
-                <HalfGradientCircle />{" "}
-              </span>{" "}
+                <HalfGradientCircle />
+              </span>
               <h2 className="uppercase text-[32px] md:text-[40px] lg:text-[50px] xl:text-2xl ml-[-24px] font-normal text-light-white font-inter">
                 GOT A QUESTION?
               </h2>
             </div>
             <h2 className="uppercase text-[30px] md:text-[40px] xl:text-2xl xl:ml-5 font-normal text-light-white font-inter">
-              GET YOUR{" "}
+              GET YOUR
               <span className="bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text">
                 ANSWER
               </span>
