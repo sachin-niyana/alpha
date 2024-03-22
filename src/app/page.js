@@ -9,19 +9,23 @@ import Footer from "@/components/Footer";
 import AboutUs from "@/components/AboutUs";
 import OurWork from "@/components/OurWork";
 import Services from "@/components/Services";
+import EngieImpact1 from "@/components/EngieImpact1";
+import TrustedBy from "@/components/TrustedBy";
 
 export default function Home() {
   return (
     <div>
-      <BackToTop />
+      {/* <BackToTop />
       <Header />
       <AboutUs />
       <Services />
       <OurWork />
       <Quote />
-      <LatestBlog />
-      <GetAnswer />
-      <Footer />
+      <LatestBlog /> */}
+    <EngieImpact1/>
+    <TrustedBy/>
+    <GetAnswer />
+    <Footer />
     </div>
   );
 }

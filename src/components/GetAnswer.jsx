@@ -1,12 +1,12 @@
 import React from "react";
-import { AlhpaName, HalfGradientCircle } from "./common/Icon";
+import { AlhpaName2, HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
 
 const GetAnswer = () => {
   return (
     <div className="bg-[#2B2B2B] relative" id="contect">
       <span className="absolute top-9 animate-pulse">
-        <AlhpaName />
+        <AlhpaName2 />
       </span>
       <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
         <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
@@ -32,9 +32,14 @@ const GetAnswer = () => {
                 className="w-[90%] lg:max-w-[592.96px]  border-[1px] text-white outline-0 border-[#b9b9b9] bg-transparent mb-6 md:mb-[48px] pt-3 sm:pt-[18px] pl-3 sm:pl-[25px] pb-[60px] sm:pb-[82px] lg:pr-[360px]"
                 placeholder="Type your Question here.."
               />
-              <button className="uppercase text-sm font-semibold hover:text-black hover:border-[#b9b9b9] border-transparent border-[1px] transition-all duration-300 ease-in-out text-light-white px-[38px] py-[15px] bg-linear-gradient-btn font-inter">
-                SEND MESSAGE
-              </button>
+              <div>
+                <button className="uppercase me-[21px] text-sm font-semibold hover:text-black hover:border-[#b9b9b9] border-transparent border-[1px] transition-all duration-300 ease-in-out text-light-white px-[38px] py-[15px] bg-linear-gradient-btn font-inter">
+                  SEND MESSAGE
+                </button>
+                <button className="uppercase  text-sm font-semibold hover:text-black border-[#F6F6F6] hover:border-transparent border-[1px] transition-all duration-300 ease-in-out text-light-white px-[38px] py-[15px] font-inter">
+                  BOOK A DISCOVERY CALL
+                </button>
+              </div>
             </form>
           </div>
           <div className="sm:w-[40%] flex justify-center">
