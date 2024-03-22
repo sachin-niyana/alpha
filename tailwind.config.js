@@ -8,6 +8,7 @@ module.exports = {
   theme: {
     fontFamily: {
       inter: ["inter", "sans-serif"],
+      aptos: ["aptos", "sans-serif"],
     },
     fontSize: {
       sm: "16px",

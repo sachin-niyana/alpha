@@ -25,7 +25,6 @@ const Quote = () => {
       className="absolute top-[107%] sm:top-[53%] left-[18%] sm:left-[0%]  z-[10] "
       onClick={onClick}
     >
-      {" "}
       <SliderNextArrow />
     </button>
   );
@@ -41,19 +40,20 @@ const Quote = () => {
   };
   return (
     <>
-      <div className="bg-[#2B2B2B] pt-[60px] sm:pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden">
+      <div
+        className="bg-[#2B2B2B] pt-[60px] sm:pt-[96px] pb-[100px] lg:pb-[173px] relative overflow-hidden"
+        id="quote"
+      >
         <span className="absolute right-[3%] bottom-[8%] animate-ping hidden md:block">
-          {" "}
-          <DoubleCircleVetor />{" "}
+          <DoubleCircleVetor />
         </span>
         <div className="container max-w-[1152px] mx-auto px-3">
           <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
           <div className="xl:mr-9">
             <div className="flex items-center">
               <span>
-                {" "}
-                <HalfGradientCircle />{" "}
-              </span>{" "}
+                <HalfGradientCircle />
+              </span>
               <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal font-inter text-light-white">
                 Quote
               </h2>
@@ -61,7 +61,6 @@ const Quote = () => {
             <Slider {...settings} className="mx-auto">
               <div className="flex items-center  justify-center mt-[29px] flex-col">
                 <div className="flex justify-center ">
-                  {" "}
                   <Image
                     src="/assets/images/quotes/esther-howard.png"
                     width={115.51}
@@ -76,19 +75,17 @@ const Quote = () => {
                   Marketing Coordinator
                 </p>
                 <div className="flex justify-center">
-                  {" "}
                   <p className="text-sm font-normal mt-[15px]  font-inter text-dark-gray max-w-[560px] text-center">
                     Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                     sartorial out celiac af beard sartorial. Trade shabby
                     cleanse actually chic franzen freegan. Dsa shabby pack etsy
                     mumblecore lyft letterpress church-key. Pinterest
-                    dreamcatcher{" "}
+                    dreamcatcher
                   </p>
                 </div>
               </div>
               <div className="flex items-center  justify-center mt-[29px] flex-col">
                 <div className="flex justify-center ">
-                  {" "}
                   <Image
                     src="/assets/images/quotes/esther-howard.png"
                     width={115.51}
@@ -103,13 +100,12 @@ const Quote = () => {
                   Marketing Coordinator
                 </p>
                 <div className="flex justify-center">
-                  {" "}
                   <p className="text-sm font-normal mt-[15px]  font-inter text-dark-gray max-w-[560px] text-center">
                     Hipster ipsum tattooed brunch I&apos;m baby. Shaman venmo
                     sartorial out celiac af beard sartorial. Trade shabby
                     cleanse actually chic franzen freegan. Dsa shabby pack etsy
                     mumblecore lyft letterpress church-key. Pinterest
-                    dreamcatcher{" "}
+                    dreamcatcher
                   </p>
                 </div>
               </div>

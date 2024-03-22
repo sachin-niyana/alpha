@@ -1,12 +1,20 @@
 import React from "react";
 import Image from "next/image";
-import { CirclesVector, DoubleTringalVector, HalfGradientCircle } from "./common/Icon";
+import {
+  CirclesVector,
+  DoubleTringalVector,
+  HalfGradientCircle,
+} from "./common/Icon";
 
 const OurWork = () => {
   return (
-    <div className="relative" id="work">
-      <div className="absolute bottom-[45px] left-[35px] hidden md:block"> <DoubleTringalVector /> </div>
-      <span className="absolute top-[10%] right-[6%] hidden md:block"> <CirclesVector /> </span>
+    <div className="relative" id="our-work">
+      <div className="absolute bottom-[45px] left-[35px] hidden md:block">
+        <DoubleTringalVector />
+      </div>
+      <span className="absolute top-[10%] right-[6%] hidden md:block">
+        <CirclesVector />
+      </span>
       <div className="container max-w-[1152px] mx-auto px-3">
         <div className=" h-[60px] xl:h-[229.3px] w-[1px] bg-[#2B2B2B] absolute top-0 left-[7%] xl:left-[14%] hidden md:block"></div>
         <div className="sm:border-r-[1px] lg:mr-9 lg:items-start border-rich-black">
@@ -14,9 +22,8 @@ const OurWork = () => {
             <div className="lg:w-[70%] xl:w-[60%]">
               <div className="flex items-center">
                 <span>
-                  {" "}
-                  <HalfGradientCircle />{" "}
-                </span>{" "}
+                  <HalfGradientCircle />
+                </span>
                 <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal text-rich-black font-inter">
                   OUR WORK
                 </h2>
@@ -32,7 +39,7 @@ const OurWork = () => {
                     </h3>
                     <p className="text-sm font-normal font-inter text-[#656463] capitalize">
                       Speak to ideal clients that are outside your network.
-                      Discover new markets and grow your{" "}
+                      Discover new markets and grow your
                     </p>
                   </div>
                 </div>
@@ -46,7 +53,7 @@ const OurWork = () => {
                     </h3>
                     <p className="text-sm font-normal font-inter text-[#656463] capitalize">
                       Speak to ideal clients that are outside your network.
-                      Discover new markets and grow your{" "}
+                      Discover new markets and grow your
                     </p>
                   </div>
                 </div>
@@ -60,7 +67,7 @@ const OurWork = () => {
                     </h3>
                     <p className="text-sm font-normal font-inter text-[#656463] capitalize">
                       Speak to ideal clients that are outside your network.
-                      Discover new markets and grow your{" "}
+                      Discover new markets and grow your
                     </p>
                   </div>
                 </div>
@@ -74,14 +81,13 @@ const OurWork = () => {
                     </h3>
                     <p className="text-sm font-normal font-inter text-[#656463] capitalize">
                       Speak to ideal clients that are outside your network.
-                      Discover new markets and grow your{" "}
+                      Discover new markets and grow your
                     </p>
                   </div>
                 </div>
               </div>
             </div>
             <div className="lg:w-[30%] xl:w-[40%]">
-              {" "}
               <Image
                 src="/assets/images/our-works/graph.png"
                 width={459.45}
