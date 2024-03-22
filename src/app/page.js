@@ -16,10 +16,10 @@ export default function Home() {
       <BackToTop />
       <Header />
       <AboutUs />
+      <TrustedBy />
       <Services />
       <EngieImpact1 />
       <LatestBlog />
-      <TrustedBy />
       <GetAnswer />
       <Footer />
     </div>

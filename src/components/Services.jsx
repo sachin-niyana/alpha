@@ -21,7 +21,10 @@ const Services = () => {
   }, []);
   const [activeTab, setActiveTab] = useState(0);
   return (
-    <div className="bg-rich-black  relative" id="services">
+    <div
+      className="bg-rich-black border-b-[0.1px] border-light-white relative"
+      id="services"
+    >
       <span className="">
         <Image
           className="absolute top-[11%] animate-pulse"
@@ -32,7 +35,7 @@ const Services = () => {
         />
       </span>
 
-      <div className="container max-w-[1120px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
+      <div className="container max-w-[1080px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex items-center">
           <span>
@@ -105,17 +108,17 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[172px]"
+                    className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/meting.png"
                     alt="meting"
                   />
-                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[85%] top-0 min-[1440px]:right-20 ">
+                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
                       {counters.counter1}+
                     </h3>
-                    <p className="font-inter font-normal text-sm text-gray max-w-[120px] text-center mx-auto pb-[21px]">
+                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
                       B2B Companies trust Alpha2
                     </p>
                     <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
@@ -141,17 +144,17 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[172px]"
+                    className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/target.png"
                     alt="target"
                   />
-                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[85%] top-0 min-[1440px]:right-20 ">
+                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
                       {counters.counter1}+
                     </h3>
-                    <p className="font-inter font-normal text-sm text-gray max-w-[120px] text-center mx-auto pb-[21px]">
+                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
                       B2B Companies trust Alpha2
                     </p>
                     <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
@@ -177,17 +180,17 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[172px]"
+                    className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/strategic.png"
                     alt="strategic"
                   />
-                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[85%] top-0 min-[1440px]:right-20 ">
+                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
                       {counters.counter1}+
                     </h3>
-                    <p className="font-inter font-normal text-sm text-gray max-w-[120px] text-center mx-auto pb-[21px]">
+                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
                       B2B Companies trust Alpha2
                     </p>
                     <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
@@ -213,17 +216,17 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[172px]"
+                    className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/demand.png"
                     alt="demand"
                   />
-                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[85%] top-0 min-[1440px]:right-20 ">
+                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
                     <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
                       {counters.counter1}+
                     </h3>
-                    <p className="font-inter font-normal text-sm text-gray max-w-[120px] text-center mx-auto pb-[21px]">
+                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
                       B2B Companies trust Alpha2
                     </p>
                     <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
