@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Sidebar from "./Sidebar";
 import Image from "next/image";
-import { HalfCircel, Plane, RightArrow } from "./common/Icon";
+import { useEffect, useState } from "react";
+import Sidebar from "./Sidebar";
+import { RightArrow } from "./common/Icon";
 
 const Header = () => {
   const [counters, setCounters] = useState({
@@ -26,8 +26,13 @@ const Header = () => {
   }, []);
   return (
     <div className=" max-w-[1440px] mx-auto relative">
-      <div className="absolute md:block hidden right-0 bottom-[-8%] animate-pulse">
-        <HalfCircel />
+      <div className="absolute md:block hidden right-[1%] bottom-[-8%] animate-pulse">
+        <Image
+          width={200}
+          height={147}
+          src="/assets/images/header/svg/plane.svg"
+          alt="plane"
+        />
       </div>
       <Sidebar />
       <div className="container max-w-[1080px] mx-auto px-3 relative">
