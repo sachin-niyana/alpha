@@ -7,8 +7,6 @@ import Header from "@/components/Header";
 import LatestBlog from "@/components/LatestBlog";
 import Services from "@/components/Services";
 import TrustedBy from "@/components/TrustedBy";
-import "slick-carousel/slick/slick-theme.css";
-import "slick-carousel/slick/slick.css";
 
 export default function Home() {
   return (

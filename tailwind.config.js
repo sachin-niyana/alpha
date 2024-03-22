@@ -24,6 +24,9 @@ module.exports = {
         "linear-gradient-btn":
           "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
         "footer-bg": "url('/assets/images/footer/bg-map.png')",
+        "linear-gradient-btn":
+          "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
+        "footer-bg": "url('/assets/images/fotter/map-bg.png')",
       },
       colors: {
         "rich-black": "#2b2b2b",
