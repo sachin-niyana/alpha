@@ -7,6 +7,25 @@ import "slick-carousel/slick/slick.css";
 import { BoxNextArrow, BoxPrewArrow, HalfGradientCircle } from "./common/Icon";
 
 const EngieImpact1 = () => {
+  const [counters, setCounters] = useState({
+    counter1: 0,
+    counter2: 0,
+    counter3: 0,
+  });
+
+  // useEffect hook to increment counters over time until a maximum value is reached
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounters((prevCounters) => ({
+        counter1: Math.min(prevCounters.counter1 + 1, 12),
+        counter2: Math.min(prevCounters.counter2 + 1, 273),
+        counter3: Math.min(prevCounters.counter3 + 1, 94),
+      }));
+    }, 2);
+
+    // Cleanup function to clear the interval
+    return () => clearInterval(interval);
+  }, []);
   const CustomPrevArrow = ({ onClick }) => (
     <button
       className="absolute right-[30%] bottom-[-15%] min-[425px]:bottom-[-23%] md:bottom-[-20%] xl:right-0 transform rotate-90 xl:rotate-0 z-[10]"
@@ -17,7 +36,7 @@ const EngieImpact1 = () => {
   );
   const CustomNextArrow = ({ onClick }) => (
     <button
-      className="absolute left-[30%] bottom-[-15%] min-[425px]:bottom-[-23%] md:bottom-[-20%]  xl:bottom-[-35%] xl:left-[88.1%] transform rotate-90 xl:rotate-0  z-[10] "
+      className="absolute left-[30%] bottom-[-15%] min-[425px]:bottom-[-23%] md:bottom-[-20%]  xl:bottom-[-35%] xl:left-[87%] transform rotate-90 xl:rotate-0  z-[10] "
       onClick={onClick}
     >
       <BoxPrewArrow />
@@ -35,7 +54,7 @@ const EngieImpact1 = () => {
   };
   return (
     <div className="">
-      <div className="bg-[#2B2B2B]">
+      <div className="bg-rich-black">
         <div className="container max-w-[1080px] mx-auto px-3 pt-[97px]">
           <div className="md:flex flex-wrap justify-center">
             <div className="md:w-[50%]">
