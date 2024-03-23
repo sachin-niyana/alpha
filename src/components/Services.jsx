@@ -30,7 +30,7 @@ const Services = () => {
           className="absolute top-[11%] animate-pulse"
           width={198}
           height={545}
-          src="/assets/images/services/alpha-2.png"
+          src="/assets/images/services/webp/alpha-2.webp"
           alt="alpha-2"
         />
       </span>
@@ -111,7 +111,7 @@ const Services = () => {
                     className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
-                    src="/assets/images/services/meting.png"
+                    src="/assets/images/services/webp/meting.webp"
                     alt="meting"
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
@@ -147,7 +147,7 @@ const Services = () => {
                     className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
-                    src="/assets/images/services/target.png"
+                    src="/assets/images/services/webp/target.webp"
                     alt="target"
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
@@ -183,7 +183,7 @@ const Services = () => {
                     className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
-                    src="/assets/images/services/strategic.png"
+                    src="/assets/images/services/webp/strategic.webp"
                     alt="strategic"
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
@@ -219,7 +219,7 @@ const Services = () => {
                     className="min-[1440px]:translate-x-[192px]"
                     width={660}
                     height={494}
-                    src="/assets/images/services/demand.png"
+                    src="/assets/images/services/webp/demand.webp"
                     alt="demand"
                   />
                   <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">

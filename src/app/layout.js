@@ -10,7 +10,7 @@ export const metadata = {
   openGraph: {
     title: "Alpha",
     description: "Welcome To Alpha Page ...",
-    images: ["/assets/images/meta/meta-img.png"],
+    images: ["/assets/images/meta/webp/meta-img.webp"],
   },
 };
 

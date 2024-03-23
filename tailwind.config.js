@@ -23,7 +23,7 @@ module.exports = {
       backgroundImage: {
         "linear-gradient-btn":
           "linear-gradient(180deg, #FF684D 0%, #FF5269 100%)",
-        "footer-bg": "url('/assets/images/footer/map-bg.png')",
+        "footer-bg": "url('/assets/images/footer/webp/map-bg.webp')",
       },
       colors: {
         "rich-black": "#2b2b2b",

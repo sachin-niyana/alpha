@@ -11,7 +11,7 @@ const Footer = () => {
     <div className="bg-footer-bg bg-cover bg-no-repeat bg-center mt-[-2px] relative overflow-hidden ">
       <Image
         className="absolute lg:bottom-[11%] bottom-[15%]"
-        src="/assets/images/footer/footer-img.png"
+        src="/assets/images/footer/webp/footer-img.webp"
         width={221}
         height={335}
         alt="footer-img"

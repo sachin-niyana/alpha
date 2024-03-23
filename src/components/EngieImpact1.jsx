@@ -121,7 +121,7 @@ const EngieImpact1 = () => {
       </div>
       <div>
         <Image
-          src="/assets/images/engie-impact/wpp.png"
+          src="/assets/images/engie-impact/webp/wpp.webp"
           width={1441.28}
           height={492.98}
           alt="wpp"

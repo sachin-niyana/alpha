@@ -44,14 +44,14 @@ const GetAnswer = () => {
           </div>
           <div className="md:w-[40%] flex justify-center">
             <Image
-              src="/assets/images/getanswer/hands.png"
+              src="/assets/images/getanswer/webp/hands.webp"
               width={376.77}
               height={605.27}
               alt="hands"
               className="lg:h-[605px] w-[280px] lg:w-[376px] hidden md:block absolute z-10"
             />
             <Image
-              src="/assets/images/getanswer/hands.png"
+              src="/assets/images/getanswer/webp/hands.webp"
               width={376.77}
               height={605.27}
               alt="hands"

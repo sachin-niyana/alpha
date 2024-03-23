@@ -37,7 +37,7 @@ const LatestBlog = () => {
                     2/7/2024
                   </p>
                   <Image
-                    src="/assets/images/blogs/business.png"
+                    src="/assets/images/blogs/webp/business.webp"
                     width={338.2}
                     height={237.52}
                     alt="business"
@@ -61,7 +61,7 @@ const LatestBlog = () => {
                     2/7/2024
                   </p>
                   <Image
-                    src="/assets/images/blogs/plan.png"
+                    src="/assets/images/blogs/webp/plan.webp"
                     width={338.2}
                     height={237.52}
                     alt="business"
@@ -85,7 +85,7 @@ const LatestBlog = () => {
                     2/7/2024
                   </p>
                   <Image
-                    src="/assets/images/blogs/brainstrom.png"
+                    src="/assets/images/blogs/webp/brainstrom.webp"
                     width={338.2}
                     height={237.52}
                     alt="business"

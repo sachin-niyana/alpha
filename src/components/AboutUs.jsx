@@ -74,7 +74,7 @@ const AboutUs = () => {
               className="max-w-[333px] md:max-h-[652px] max-h-[500px] object-cover md:mt-0 mt-7"
               width={333}
               height={652}
-              src="/assets/images/about-us/learn.png"
+              src="/assets/images/about-us/webp/learn.webp"
               alt="learn"
             />
           </div>
