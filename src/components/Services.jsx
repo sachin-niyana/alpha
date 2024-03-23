@@ -35,7 +35,7 @@ const Services = () => {
         />
       </span>
 
-      <div className="container max-w-[1080px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
+      <div className="container max-w-[1152px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex items-center">
           <span>
@@ -108,7 +108,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[192px]"
+                    className="min-[1440px]:translate-x-[165px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/meting.webp"
@@ -144,7 +144,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[192px]"
+                    className="min-[1440px]:translate-x-[165px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/target.webp"
@@ -180,7 +180,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[192px]"
+                    className="min-[1440px]:translate-x-[165px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/strategic.webp"
@@ -216,7 +216,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[192px]"
+                    className="min-[1440px]:translate-x-[165px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/demand.webp"

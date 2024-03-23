@@ -5,9 +5,9 @@ import Image from "next/image";
 const TrustedBy = () => {
   return (
     <div>
-      <div className="container max-w-[1080px] mx-auto px-3">
+      <div className="container max-w-[1140px] mx-auto px-3 overflow-x-hidden">
         <div className="flex flex-col border-e-[1px] pt-[55px] pb-[68px] border-rich-black">
-          <h2 className="font-aptos text-[24px] xl:translate-x-[-3%] uppercase text-[#2B2B2B] font-bold">
+          <h2 className="font-aptos text-[24px] uppercase text-[#2B2B2B] font-bold">
             Trusted by:
           </h2>
           <Marquee speed={100} className="mt-[28px] gap-[4px]">

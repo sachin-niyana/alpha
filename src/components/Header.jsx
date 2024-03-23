@@ -35,9 +35,9 @@ const Header = () => {
         />
       </div>
       <Sidebar />
-      <div className="container max-w-[1080px] mx-auto px-3 relative">
+      <div className="container max-w-[1152px] mx-auto px-3 relative">
         <Image
-          className="absolute right-[101%] top-[-2%] h-[537px]"
+          className="absolute right-[97%] top-[-2%] h-[537px]"
           width={170}
           height={604}
           src="/assets/images/header/webp/alpha.webp"
@@ -51,18 +51,10 @@ const Header = () => {
                 <p className="font-inter font-normal sm:text-start text-center text-md text-rich-black pt-[26px] tracking-widest uppercase">
                   B2B LEAD GENERATION
                 </p>
-                <h1 className="font-aptos relative sm:text-start text-center sm:mx-0 mx-auto font-bold lg:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[750px] sm:max-w-[470px] max-w-[300px] pt-[9px]">
+                <h1 className="font-aptos relative sm:text-start text-center sm:mx-0 mx-auto font-bold xl:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[750px] sm:max-w-[470px] max-w-[300px] pt-[9px]">
                   Corporate INTRODUCTION agency
-                  <span className="lg:w-[680px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[57%]"></span>
+                  <span className="xl:w-[680px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[57%]"></span>
                 </h1>
-                <div className="flex gap-2.5 items-center sm:mx-0 cursor-pointer mx-auto md:mt-[38px] mt-7 group max-w-[140px]">
-                  <p className="font-inter font-thin text-md text-rich-black">
-                    Our work
-                  </p>
-                  <div className="group-hover:translate-x-2 transition-all ease-in-out duration-300">
-                    <RightArrow />
-                  </div>
-                </div>
               </div>
               <div className="flex justify-center">
                 <Image
@@ -91,8 +83,8 @@ const Header = () => {
               />
             </div>
           </div>
-          <div className="min-w-[153px]">
-            <div className="absolute lg:top-[4%] top-[2%] md:right-[4%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
+          <div className="min-w-[200px] lg:px-6">
+            <div className="absolute lg:top-[4%] top-[2%] md:right-[8%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
             <div className="flex lg:flex-col flex-row justify-center lg:pb-0">
               <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[150px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
                 <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">

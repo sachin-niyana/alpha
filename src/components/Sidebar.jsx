@@ -19,8 +19,8 @@ const Sidebar = ({ children }) => {
   };
 
   return (
-    <div className="container pt-[13px] max-w-[1080px] mx-auto xl:ps-[25px] xl:pe-3 px-3">
-      <div className="flex justify-between items-start border-b-[1px] pb-[23px] ">
+    <div className="container pt-[3px] max-w-[1140px] mx-auto xl:ps-[25px] xl:pe-3 px-3">
+      <div className="flex justify-between items-center border-b-[1px] pb-[3px] ">
         <Link href="#">
           <Logo />
         </Link>

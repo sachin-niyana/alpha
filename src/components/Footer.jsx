@@ -16,8 +16,8 @@ const Footer = () => {
         height={335}
         alt="footer-img"
       />
-      <div className="container max-w-[1152px] xl:pl-[6px] mx-auto px-3">
-        <div className="lg:mr-8 relative">
+      <div className="container max-w-[1140px] xl:pl-[6px] mx-auto px-3">
+        <div className=" relative">
           <div className="flex flex-wrap pt-[60px] md:pt-[130px] lg:pt-[167px] justify-center">
             <div className="w-full sm:w-[50%] md:w-4/12  flex justify-center md:justify-start">
               <ul className="flex justify-center flex-col items-center">
