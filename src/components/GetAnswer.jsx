@@ -8,7 +8,7 @@ const GetAnswer = () => {
       <span className="absolute top-24 animate-pulse">
         <AlhpaName2 />
       </span>
-      <div className="container max-w-[1140px] mx-auto px-3 pt-10 md:pt-[96px]">
+      <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
         <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
         <div className=" flex flex-wrap justify-center pb-16 sm:pb-[115px]">
           <div className="md:w-[60%]">
@@ -16,16 +16,16 @@ const GetAnswer = () => {
               <span>
                 <HalfGradientCircle />
               </span>
-              <h2 className="uppercase text-[32px] md:text-[40px] lg:text-[50px] xl:text-2xl ml-[-24px] font-normal text-light-white font-inter">
+              <h2 className="uppercase text-[32px] md:text-[40px] lg:text-[50px] xl:text-2xl ml-[-24px] font-bold text-light-white font-aptos">
                 GOT A QUESTION?
               </h2>
             </div>
-            <h2 className="uppercase text-[30px] md:text-[40px] xl:text-2xl xl:ml-5 font-normal text-light-white font-inter">
+            <h3 className="uppercase text-[30px] md:text-[40px] xl:text-2xl xl:ml-5 font-bold text-light-white font-aptos">
               GET YOUR
               <span className="bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text">
                 ANSWER
               </span>
-            </h2>
+            </h3>
             <form action="" className=" mt-6 md:mt-[48px]">
               <input
                 type="text"

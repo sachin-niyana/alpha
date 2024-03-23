@@ -26,10 +26,10 @@ const Header = () => {
   }, []);
   return (
     <div className=" max-w-[1440px] mx-auto relative">
-      <div className="absolute md:block hidden right-[1%] bottom-[-8%] animate-pulse">
+      <div className="absolute md:block hidden right-[3%] bottom-[-8%] animate-pulse">
         <Image
-          width={200}
-          height={147}
+          width={120}
+          height={118}
           src="/assets/images/header/svg/plane.svg"
           alt="plane"
         />
@@ -47,13 +47,13 @@ const Header = () => {
           <div className="flex flex-col w-full border-e-[1px] border-rich-black">
             <div className="flex sm:flex-row flex-col sm:justify-between justify-center">
               <div className="flex flex-col">
-                <div className="bg-rich-black h-[43px] w-[1px] xl:ms-[13px]"></div>
+                <div className="bg-rich-black h-[43px] w-[1px] "></div>
                 <p className="font-inter font-normal sm:text-start text-center text-md text-rich-black pt-[26px] tracking-widest uppercase">
                   B2B LEAD GENERATION
                 </p>
-                <h1 className="font-aptos relative sm:text-start text-center sm:mx-0 mx-auto font-bold xl:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] !xl:max-w-[750px] sm:max-w-[470px] max-w-[300px] pt-[9px]">
+                <h1 className="font-aptos relative sm:text-start text-center sm:mx-0 mx-auto font-bold xl:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] xl:max-w-[690px] sm:max-w-[470px] max-w-[300px] pt-[9px]">
                   Corporate INTRODUCTION agency
-                  <span className="xl:w-[680px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[57%]"></span>
+                  <span className="xl:w-[690px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[57%]"></span>
                 </h1>
               </div>
               <div className="flex justify-center">

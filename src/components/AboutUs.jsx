@@ -4,11 +4,11 @@ import { HalfGradientCircle } from "./common/Icon";
 const AboutUs = () => {
   return (
     <div className="relative" id="about-us">
-      <div className="container max-w-[1140px] mx-auto px-3" id="ABOUT-US">
+      <div className="container max-w-[1152px] mx-auto px-3" id="ABOUT-US">
         <div className="flex lg:items-end md:items-center md:flex-row justify-between flex-col border-e-[1px] border-rich-black me-0 lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
-            <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] lg:ms-8"></div>
-            <div className="flex xl:translate-x-[-3%] items-center md:mt-8 md:justify-start justify-center">
+            <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] lg:ms-12"></div>
+            <div className="flex items-center md:mt-8 md:justify-start justify-center">
               <span>
                 <HalfGradientCircle />
               </span>
@@ -43,7 +43,7 @@ const AboutUs = () => {
                   src="/assets/images/about-us/svg/unearth.svg"
                   alt="unearth"
                 />
-                <h4 className="font-inter lg:mx-0 mx-auto font-semibold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[143px] mt-[15px] leading-[125%] capitalize">
+                <h4 className="font-inter lg:mx-0 mx-auto font-bold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[143px] mt-[15px] leading-[125%] capitalize">
                   Unearth new opportunities
                 </h4>
                 <p className="font-inter lg:mx-0 mx-auto text-gray font-normal lg:text-start text-center text-sm max-w-[294px] capitalize mt-[13px]">
@@ -59,7 +59,7 @@ const AboutUs = () => {
                   src="/assets/images/about-us/svg/leave.svg"
                   alt="unearth"
                 />
-                <h4 className="font-inter lg:mx-0 mx-auto font-semibold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[217px] mt-[15px] leading-[125%] capitalize">
+                <h4 className="font-inter lg:mx-0 mx-auto font-bold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[217px] mt-[15px] leading-[125%] capitalize">
                   Leave prospecting to the experts
                 </h4>
                 <p className="font-inter text-gray lg:mx-0 mx-auto lg:text-start text-center font-normal text-sm max-w-[294px] capitalize mt-[13px]">

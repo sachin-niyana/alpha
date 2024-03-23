@@ -22,7 +22,7 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div
-      className="bg-rich-black border-b-[0.1px] border-light-white relative"
+      className="bg-rich-black border-b-[0.001px] border-light-gray relative"
       id="services"
     >
       <span className="">
@@ -41,7 +41,7 @@ const Services = () => {
           <span>
             <HalfGradientCircle />
           </span>
-          <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-normal text-light-white font-inter">
+          <h2 className="uppercase text-xl sm:text-2xl ml-[-24px] font-bold text-light-white font-aptos">
             Services
           </h2>
         </div>
