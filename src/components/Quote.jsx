@@ -62,7 +62,7 @@ const Quote = () => {
               <div className="flex items-center  justify-center mt-[29px] flex-col">
                 <div className="flex justify-center ">
                   <Image
-                    src="/assets/images/quotes/esther-howard.png"
+                    src="/assets/images/quotes/webp/esther-howard.webp"
                     width={115.51}
                     height={106.91}
                     alt="esther-howard"
@@ -87,7 +87,7 @@ const Quote = () => {
               <div className="flex items-center  justify-center mt-[29px] flex-col">
                 <div className="flex justify-center ">
                   <Image
-                    src="/assets/images/quotes/esther-howard.png"
+                    src="/assets/images/quotes/webp/esther-howard.webp"
                     width={115.51}
                     height={106.91}
                     alt="esther-howard"

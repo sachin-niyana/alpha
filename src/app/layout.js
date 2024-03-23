@@ -4,8 +4,14 @@ import "./globals.css";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
+  metadataBase: "https://alpha-two-swart.vercel.app/",
   title: "Alpha",
-  description: "Welcome To Alpha Page...",
+  description: "Welcome To Alpha Page ...",
+  openGraph: {
+    title: "Alpha",
+    description: "Welcome To Alpha Page ...",
+    images: ["/assets/images/meta/webp/meta-img.webp"],
+  },
 };
 
 export default function RootLayout({ children }) {

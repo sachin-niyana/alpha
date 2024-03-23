@@ -1,13 +1,9 @@
-import React from "react";
-import { CircleLineVector, HalfGradientCircle } from "./common/Icon";
 import Image from "next/image";
+import { HalfGradientCircle } from "./common/Icon";
 
 const AboutUs = () => {
   return (
     <div className="relative" id="about-us">
-      <span className="absolute bottom-[10%] left-[1.5%] hidden md:block animate-pulse">
-        <CircleLineVector />
-      </span>
       <div className="container max-w-[1080px] mx-auto px-3" id="ABOUT-US">
         <div className="flex lg:items-end md:items-center md:flex-row justify-between flex-col border-e-[1px] border-rich-black me-0 lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
@@ -16,11 +12,11 @@ const AboutUs = () => {
               <span>
                 <HalfGradientCircle />
               </span>
-              <h2 className="uppercase md:text-xxl lg:text-2xl text-xl lg:ml-[-22px] md:ml-[-18px] ml-[-14px] font-bold font-inter text-rich-black">
+              <h2 className="uppercase md:text-xxl lg:text-2xl text-xl lg:ml-[-22px] md:ml-[-18px] ml-[-14px] font-bold font-aptos text-rich-black">
                 ABOUT US
               </h2>
             </div>
-            <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[680px] capitalize ">
+            <p className="font-inter md:text-start text-gray text-center font-normal text-sm max-w-[680px] capitalize mt-[21px]">
               For nearly a decade, Alpha² Partners have accelerated revenue
               generation for global En-Tech (Energy Technology) businesses,
               disruptive PR agencies, and many more.
@@ -78,7 +74,7 @@ const AboutUs = () => {
               className="max-w-[333px] md:max-h-[652px] max-h-[500px] object-cover md:mt-0 mt-7"
               width={333}
               height={652}
-              src="/assets/images/about-us/learn.png"
+              src="/assets/images/about-us/webp/learn.webp"
               alt="learn"
             />
           </div>

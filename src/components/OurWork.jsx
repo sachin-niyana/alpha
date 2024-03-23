@@ -89,7 +89,7 @@ const OurWork = () => {
             </div>
             <div className="lg:w-[30%] xl:w-[40%]">
               <Image
-                src="/assets/images/our-works/graph.png"
+                src="/assets/images/our-works/webp/graph.webp"
                 width={459.45}
                 height={550.02}
                 alt="graph"

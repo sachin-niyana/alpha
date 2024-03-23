@@ -1,8 +1,8 @@
 "use client";
-import React, { useEffect, useState } from "react";
-import Sidebar from "./Sidebar";
 import Image from "next/image";
-import { HalfCircel, Plane, RightArrow } from "./common/Icon";
+import { useEffect, useState } from "react";
+import Sidebar from "./Sidebar";
+import { RightArrow } from "./common/Icon";
 
 const Header = () => {
   const [counters, setCounters] = useState({
@@ -26,8 +26,13 @@ const Header = () => {
   }, []);
   return (
     <div className=" max-w-[1440px] mx-auto relative">
-      <div className="absolute md:block hidden right-0 bottom-[-8%] animate-pulse">
-        <HalfCircel />
+      <div className="absolute md:block hidden right-[1%] bottom-[-8%] animate-pulse">
+        <Image
+          width={200}
+          height={147}
+          src="/assets/images/header/svg/plane.svg"
+          alt="plane"
+        />
       </div>
       <Sidebar />
       <div className="container max-w-[1080px] mx-auto px-3 relative">
@@ -35,7 +40,7 @@ const Header = () => {
           className="absolute right-[101%] top-[-2%] h-[537px]"
           width={170}
           height={604}
-          src="/assets/images/header/alpha.png"
+          src="/assets/images/header/webp/alpha.webp"
           alt="alpha"
         />
         <div className="flex lg:flex-row flex-col items-center lg:border-e-[1px] border-rich-black">
@@ -64,14 +69,14 @@ const Header = () => {
                   className="sm:block hidden md:mt-[185px] sm:mt-28 mt-10"
                   width={180}
                   height={359}
-                  src="/assets/images/header/study-2.png"
+                  src="/assets/images/header/webp/study-2.webp"
                   alt="study-2"
                 />
                 <Image
                   className="sm:hidden block md:mt-[185px] sm:mt-28 my-10"
                   width={180}
                   height={359}
-                  src="/assets/images/header/study.png"
+                  src="/assets/images/header/webp/study.webp"
                   alt="study"
                 />
               </div>
@@ -81,7 +86,7 @@ const Header = () => {
                 className="lg:absolute lg:min-w-[1112px] right-0 w-full"
                 width={1087}
                 height={439}
-                src="/assets/images/header/screen.png"
+                src="/assets/images/header/webp/screen.webp"
                 alt="screen"
               />
             </div>
