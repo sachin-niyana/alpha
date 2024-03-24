@@ -15,7 +15,7 @@ const OurWork = () => {
       <span className="absolute top-[10%] right-[6%] hidden md:block">
         <CirclesVector />
       </span>
-      <div className="container max-w-[1152px] mx-auto px-3">
+      <div className="container max-w-[1164px] mx-auto px-3">
         <div className=" h-[60px] xl:h-[229.3px] w-[1px] bg-[#2B2B2B] absolute top-0 left-[7%] xl:left-[14%] hidden md:block"></div>
         <div className="sm:border-r-[1px] lg:mr-9 lg:items-start border-rich-black">
           <div className="flex flex-wrap justify-center pt-[60px] lg:pt-[100px] xl:pt-[244px]">

@@ -35,7 +35,7 @@ const Header = () => {
         />
       </div>
       <Sidebar />
-      <div className="container max-w-[1152px] mx-auto px-3 relative">
+      <div className="container max-w-[1164px] mx-auto px-3 relative">
         <Image
           className="absolute right-[97%] top-[-2%] h-[537px]"
           width={170}
@@ -87,7 +87,7 @@ const Header = () => {
             <div className="absolute lg:top-[4%] top-[2%] md:right-[8%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
             <div className="flex lg:flex-col flex-row justify-center lg:pb-0">
               <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[150px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
+                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
                   {counters.counter1}
                   <span className="font-aptos font-light text-lg">x</span>
                 </h3>
@@ -96,7 +96,7 @@ const Header = () => {
                 </p>
               </div>
               <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[150px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
+                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
                   {counters.counter2}+
                 </h3>
                 <p className="font-inter font-normal text-sm text-gray max-w-[105px] text-center mx-auto">
@@ -104,7 +104,7 @@ const Header = () => {
                 </p>
               </div>
               <div className="lg:border-b-[1px] lg:w-full sm:w-[150px] w-[120px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-inter font-normal md:text-xxl text-xl text-rich-black leading-[120%]">
+                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
                   {counters.counter3}%
                 </h3>
                 <p className="font-inter font-normal text-sm text-gray max-w-[105px] text-center mx-auto">

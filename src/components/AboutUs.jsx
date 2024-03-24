@@ -4,7 +4,7 @@ import { HalfGradientCircle } from "./common/Icon";
 const AboutUs = () => {
   return (
     <div className="relative" id="about-us">
-      <div className="container max-w-[1152px] mx-auto px-3" id="ABOUT-US">
+      <div className="container max-w-[1164px] mx-auto px-3" id="ABOUT-US">
         <div className="flex lg:items-end md:items-center md:flex-row justify-between flex-col border-e-[1px] border-rich-black me-0 lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
             <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] lg:ms-12"></div>

@@ -35,7 +35,7 @@ const Services = () => {
         />
       </span>
 
-      <div className="container max-w-[1152px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
+      <div className="container max-w-[1164px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex items-center">
           <span>

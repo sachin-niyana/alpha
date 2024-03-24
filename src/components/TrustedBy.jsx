@@ -5,7 +5,7 @@ import Image from "next/image";
 const TrustedBy = () => {
   return (
     <div>
-      <div className="container max-w-[1152px] mx-auto px-3 overflow-x-hidden">
+      <div className="container max-w-[1164px] mx-auto px-3 overflow-x-hidden">
         <div className="flex flex-col border-e-[1px] pt-[55px] pb-[68px] border-rich-black">
           <h2 className="font-aptos text-[24px] uppercase text-[#2B2B2B] font-bold">
             Trusted by:

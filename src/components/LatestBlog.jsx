@@ -18,7 +18,7 @@ const LatestBlog = () => {
       <span className="absolute top-[40%] left-[2%] animate-spin hidden md:block">
         <HalfCircleVetor />
       </span>
-      <div className="container max-w-[1152px] mx-auto px-3">
+      <div className="container max-w-[1164px] mx-auto px-3">
         <div className="h-[148px] w-[1px] bg-rich-black absolute top-0 left-[7%] xl:left-[14%] hidden lg:block "></div>
         <div className="sm:border-r-[1px]  lg:pt-[171px] py-[70px] lg:pb-[223px] lg:items-start border-richbg-rich-black">
           <div className="flex items-center">

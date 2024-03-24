@@ -8,7 +8,7 @@ const GetAnswer = () => {
       <span className="absolute top-24 animate-pulse">
         <AlhpaName2 />
       </span>
-      <div className="container max-w-[1152px] mx-auto px-3 pt-10 md:pt-[96px]">
+      <div className="container max-w-[1164px] mx-auto px-3 pt-10 md:pt-[96px]">
         <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
         <div className=" flex flex-wrap justify-center pb-16 sm:pb-[115px]">
           <div className="md:w-[60%]">
