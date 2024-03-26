@@ -136,8 +136,8 @@ const Services = () => {
                     A new generation of growth agency
                   </h4>
                   <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
-                    Through a number of multi-focused outreach campaigns, we
-                    work alongside our partners to develop conversion specific
+                    Through a number of multi-focused outreach campaigns,we work
+                    alongside our partners to develop conversion specific
                     content – Showcasing the companies strengths using
                     intelligent positioning & messaging whilst organically
                     generating new opportunities.
@@ -205,7 +205,7 @@ const Services = () => {
                     Target Profiling
                   </h3>
                   <h4 className="font-inter font-semibold md:text-start text-center lg:text-md max-w-[463px] md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
-                    Scale revenue growth from new and existing prospects
+                    Scale revenue growth from new and existing prospects
                   </h4>
                   <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
                     Understanding your customer profile and target audience
