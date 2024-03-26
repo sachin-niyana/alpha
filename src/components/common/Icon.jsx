@@ -1,6 +1,7 @@
 export const Logo = () => {
   return (
     <svg
+      className="sm:w-[211px] w-[170px] sm:h-[78px] h-[60px]"
       width="211"
       height="78"
       viewBox="0 0 211 78"
@@ -8,6 +9,7 @@ export const Logo = () => {
       xmlns="http://www.w3.org/2000/svg"
     >
       <path
+        className="sm:w-[211px] w-[170px]"
         d="M26.1547 20.2472L39.5753 63.9423H32.5841L21.9724 29.6104L11.3607 63.9423H4.36951L17.7902 20.2472H26.1547ZM106.286 20.2472C114.838 20.2472 119.769 25.1785 119.769 33.6678C119.769 42.2196 114.838 47.1509 106.286 47.1509H96.2361V63.9423H89.4946V40.4094H106.286C111.155 40.4094 113.028 38.5367 113.028 33.6678C113.028 28.8614 111.155 26.9887 106.286 26.9887H89.4946V20.2472H106.286ZM191.467 20.2472L204.888 63.9423H197.897L187.285 29.6104L176.673 63.9423H169.682L183.103 20.2472H191.467Z"
         fill="#2B2B2B"
       />
@@ -700,21 +702,47 @@ export const AlhpaName2 = () => {
 };
 export const TwiterIcon = () => {
   return (
-    <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-    <rect y="0.669922" width="32" height="32" rx="16" fill="url(#paint0_linear_142_281)"/>
-    <g clip-path="url(#clip0_142_281)">
-    <path d="M17.442 15.4843L23.0831 8.92676H21.7462L16.8481 14.6204L12.9359 8.92676H8.42358L14.3396 17.5367L8.42358 24.4131H9.76049L14.9332 18.4004L19.0646 24.4131H23.577L17.4416 15.4843H17.442ZM15.6109 17.6124L15.0114 16.7551L10.2421 9.93313H12.2955L16.1442 15.4388L16.7436 16.2961L21.7468 23.4524H19.6936L15.6109 17.6128V17.6124Z" fill="black"/>
-    </g>
-    <defs>
-    <linearGradient id="paint0_linear_142_281" x1="16" y1="0.669922" x2="16" y2="32.6699" gradientUnits="userSpaceOnUse">
-    <stop offset="0.200967" stop-color="#FF684D"/>
-    <stop offset="1" stop-color="#FF5269"/>
-    </linearGradient>
-    <clipPath id="clip0_142_281">
-    <rect width="15.4863" height="15.4863" fill="white" transform="translate(8.25684 8.92676)"/>
-    </clipPath>
-    </defs>
+    <svg
+      width="32"
+      height="33"
+      viewBox="0 0 32 33"
+      fill="none"
+      xmlns="http://www.w3.org/2000/svg"
+    >
+      <rect
+        y="0.669922"
+        width="32"
+        height="32"
+        rx="16"
+        fill="url(#paint0_linear_142_281)"
+      />
+      <g clip-path="url(#clip0_142_281)">
+        <path
+          d="M17.442 15.4843L23.0831 8.92676H21.7462L16.8481 14.6204L12.9359 8.92676H8.42358L14.3396 17.5367L8.42358 24.4131H9.76049L14.9332 18.4004L19.0646 24.4131H23.577L17.4416 15.4843H17.442ZM15.6109 17.6124L15.0114 16.7551L10.2421 9.93313H12.2955L16.1442 15.4388L16.7436 16.2961L21.7468 23.4524H19.6936L15.6109 17.6128V17.6124Z"
+          fill="black"
+        />
+      </g>
+      <defs>
+        <linearGradient
+          id="paint0_linear_142_281"
+          x1="16"
+          y1="0.669922"
+          x2="16"
+          y2="32.6699"
+          gradientUnits="userSpaceOnUse"
+        >
+          <stop offset="0.200967" stop-color="#FF684D" />
+          <stop offset="1" stop-color="#FF5269" />
+        </linearGradient>
+        <clipPath id="clip0_142_281">
+          <rect
+            width="15.4863"
+            height="15.4863"
+            fill="white"
+            transform="translate(8.25684 8.92676)"
+          />
+        </clipPath>
+      </defs>
     </svg>
-    
   );
 };

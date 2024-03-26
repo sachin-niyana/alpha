@@ -22,7 +22,7 @@ const Services = () => {
   const [activeTab, setActiveTab] = useState(0);
   return (
     <div
-      className="bg-rich-black border-b-[0.001px] border-light-gray relative"
+      className="bg-rich-black border-b-[0.001px] border-light-gray relative max-w-[1440px] mx-auto"
       id="services"
     >
       <span>
@@ -35,7 +35,7 @@ const Services = () => {
         />
       </span>
 
-      <div className="container max-w-[1164px] mx-auto pb-[101px] px-3 border-e-[1px] border-rich-black">
+      <div className="container relative max-w-[1164px] mx-auto lg:pb-[101px] pb-16 lg:px-4 px-3 border-e-[1px] border-rich-black">
         <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex items-center">
           <span>
@@ -45,14 +45,14 @@ const Services = () => {
             Services
           </h2>
         </div>
-        <div className="flex flex-col mt-4">
-          <div className="flex lg:flex-row flex-col lg:w-full w-[300px] justify-center mx-auto lg:mb-[101px] md:mb-12 mt-[50px]">
+        <div className="flex flex-col">
+          <div className="flex md:flex-row flex-col md:w-full w-[300px] justify-center mx-auto lg:mb-[101px] md:mb-12 mt-[53px]">
             <button
               className={`${
                 activeTab === 0
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] px-7 border-[1px] lg:border-t-0 lg:border-e-0 focus:outline-none font-inter font-semibold text-md`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] md:border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(0)}
             >
               Lead Generation
@@ -62,7 +62,7 @@ const Services = () => {
                 activeTab === 1
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 lg:border-e-0 focus:outline-none font-inter font-semibold text-md`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(1)}
             >
               Strategic Marketing
@@ -72,7 +72,7 @@ const Services = () => {
                 activeTab === 2
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 lg:border-e-0 focus:outline-none font-inter font-semibold text-md`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(2)}
             >
               Demand Generation
@@ -82,7 +82,7 @@ const Services = () => {
                 activeTab === 3
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] px-7 border-[1px] border-t-0 focus:outline-none font-inter font-semibold text-md`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(3)}
             >
               Target Profiling
@@ -93,7 +93,7 @@ const Services = () => {
             {activeTab === 0 && (
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
-                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
+                  <h3 className="font-aptos font-bold xl:text-xxl lg:text-xl sm:text-llg text-lg md:text-start text-center text-light-white leading-[100%]">
                     Lead Generation
                   </h3>
                   <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
@@ -129,7 +129,7 @@ const Services = () => {
             {activeTab === 1 && (
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
-                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
+                  <h3 className="font-aptos font-bold xl:text-xxl lg:text-xl sm:text-llg text-lg md:text-start text-center text-light-white leading-[100%]">
                     Strategic Marketing
                   </h3>
                   <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
@@ -166,7 +166,7 @@ const Services = () => {
             {activeTab === 2 && (
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
-                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
+                  <h3 className="font-aptos font-bold xl:text-xxl lg:text-xl sm:text-llg text-lg md:text-start text-center text-light-white leading-[100%]">
                     Demand Generation
                   </h3>
                   <h4 className="font-inter font-semibold md:text-start text-center max-w-[463px] lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
@@ -201,7 +201,7 @@ const Services = () => {
             {activeTab === 3 && (
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
-                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
+                  <h3 className="font-aptos font-bold xl:text-xxl lg:text-xl sm:text-llg text-lg md:text-start text-center text-light-white leading-[100%]">
                     Target Profiling
                   </h3>
                   <h4 className="font-inter font-semibold md:text-start text-center lg:text-md max-w-[463px] md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">

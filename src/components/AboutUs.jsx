@@ -4,7 +4,10 @@ import { HalfGradientCircle } from "./common/Icon";
 const AboutUs = () => {
   return (
     <div className="relative" id="about-us">
-      <div className="container max-w-[1164px] mx-auto px-3" id="ABOUT-US">
+      <div
+        className="container max-w-[1164px] mx-auto lg:px-4 px-3"
+        id="ABOUT-US"
+      >
         <div className="flex lg:items-end md:items-center md:flex-row justify-between flex-col border-e-[1px] border-rich-black me-0 lg:border-t-[0px] border-t-[1px] ">
           <div className="flex flex-col">
             <div className="bg-rich-black md:h-[121px] sm:h-[100px] h-[60px] w-[1px] lg:ms-12"></div>
@@ -35,7 +38,7 @@ const AboutUs = () => {
               CONTACT US
             </button>
             <div className="relative z-2 bg-[#ECEAE7] flex min-[480px]:flex-row flex-col justify-center md:mt-[54px] mt-7  md:me-5 lg:me-[45px]">
-              <div className="pt-12 pb-[18px] px-[19px] border-[1px] border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
+              <div className="lg:pt-12 lg:pb-[18px] lg:px-[19px] p-5 border-[1px] border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
                 <Image
                   className="lg:mx-0 mx-auto"
                   width={58}
@@ -43,7 +46,7 @@ const AboutUs = () => {
                   src="/assets/images/about-us/svg/unearth.svg"
                   alt="unearth"
                 />
-                <h4 className="font-inter lg:mx-0 mx-auto font-bold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[143px] mt-[15px] leading-[125%] capitalize">
+                <h4 className="font-inter lg:mx-0 mx-auto font-bold text-rich-black lg:text-start text-center lg:text-md md:text-sm text-md max-w-[143px] mt-[15px] leading-[125%] capitalize">
                   Unearth new opportunities
                 </h4>
                 <p className="font-inter lg:mx-0 mx-auto text-gray font-normal lg:text-start text-center text-sm max-w-[294px] capitalize mt-[13px]">
@@ -51,7 +54,7 @@ const AboutUs = () => {
                   new markets and grow your business
                 </p>
               </div>
-              <div className="pt-12 pb-[18px] px-[19px] border-[1px] min-[480px]:border-s-0 min-[480px]:border-t-[1px] border-t-0 border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
+              <div className="lg:pt-12 lg:pb-[18px] lg:px-[19px] p-5 border-[1px] min-[480px]:border-s-0 min-[480px]:border-t-[1px] border-t-0 border-rich-black max-w-[360px] min-[480px]:mx-0 mx-auto">
                 <Image
                   className="lg:mx-0 mx-auto"
                   width={58}
@@ -59,7 +62,7 @@ const AboutUs = () => {
                   src="/assets/images/about-us/svg/leave.svg"
                   alt="unearth"
                 />
-                <h4 className="font-inter lg:mx-0 mx-auto font-bold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[217px] mt-[15px] leading-[125%] capitalize">
+                <h4 className="font-inter lg:mx-0 text-rich-black mx-auto font-bold lg:text-start text-center lg:text-md md:text-sm text-md max-w-[217px] mt-[15px] leading-[125%] capitalize">
                   Leave prospecting to the experts
                 </h4>
                 <p className="font-inter text-gray lg:mx-0 mx-auto lg:text-start text-center font-normal text-sm max-w-[294px] capitalize mt-[13px]">

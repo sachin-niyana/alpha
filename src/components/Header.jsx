@@ -35,7 +35,7 @@ const Header = () => {
         />
       </div>
       <Sidebar />
-      <div className="container max-w-[1164px] mx-auto px-3 relative">
+      <div className="container max-w-[1164px] mx-auto lg:px-4 px-3 relative">
         <Image
           className="absolute right-[97%] top-[-2%] h-[537px]"
           width={170}
@@ -53,12 +53,12 @@ const Header = () => {
                 </p>
                 <h1 className="font-aptos relative sm:text-start text-center sm:mx-0 mx-auto font-bold xl:text-3xl md:text-2xl sm:text-xxl text-xl text-rich-black uppercase leading-[120%] xl:max-w-[690px] sm:max-w-[470px] max-w-[300px] pt-[9px]">
                   Corporate INTRODUCTION agency
-                  <span className="xl:w-[690px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 h-[17px] bg-linear-gradient-btn absolute block top-[57%]"></span>
+                  <span className="xl:w-[690px] z-[-1] md:w-[500px] sm:w-[380px] w-[300px] sm:mx-0 md:h-[17px] h-2.5 bg-linear-gradient-btn absolute block top-[57%]"></span>
                 </h1>
               </div>
               <div className="flex justify-center">
                 <Image
-                  className="sm:block hidden md:mt-[185px] sm:mt-28 mt-10"
+                  className="sm:block hidden lg:mt-[185px] sm:mt-16 mt-10"
                   width={180}
                   height={359}
                   src="/assets/images/header/webp/study-2.webp"
@@ -84,30 +84,30 @@ const Header = () => {
             </div>
           </div>
           <div className="min-w-[200px] lg:px-6">
-            <div className="absolute lg:top-[4%] top-[2%] md:right-[8%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
+            <div className="animate-pulse absolute lg:top-[4%] top-[2%] md:right-[8%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
             <div className="flex lg:flex-col flex-row justify-center lg:pb-0">
-              <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[150px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
+              <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[200px] min-[570px]:w-[180px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
+                <h3 className="text-center font-aptos font-light md:text-xxl sm:text-xl text-lg text-rich-black leading-[120%]">
                   {counters.counter1}
                   <span className="font-aptos font-light text-lg">x</span>
                 </h3>
-                <p className="font-inter font-normal text-sm text-gray max-w-[105px] text-center mx-auto">
+                <p className="font-inter font-normal text-sm text-gray lg:max-w-[105px] max-w-[180px] text-center mx-auto">
                   Average ROI
                 </p>
               </div>
-              <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[150px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
+              <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[200px] min-[570px]:w-[180px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
+                <h3 className="text-center font-aptos font-light md:text-xxl sm:text-xl text-lg text-rich-black leading-[120%]">
                   {counters.counter2}+
                 </h3>
-                <p className="font-inter font-normal text-sm text-gray max-w-[105px] text-center mx-auto">
+                <p className="font-inter font-normal text-sm text-gray lg:max-w-[105px] max-w-[180px] text-center mx-auto">
                   average SQLs Generated (monthly)
                 </p>
               </div>
-              <div className="lg:border-b-[1px] lg:w-full sm:w-[150px] w-[120px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
-                <h3 className="text-center font-aptos font-light md:text-xxl text-xl text-rich-black leading-[120%]">
+              <div className="lg:border-b-[1px] lg:w-full sm:w-[200px] min-[570px]:w-[180px] w-[120px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">
+                <h3 className="text-center font-aptos font-light md:text-xxl sm:text-xl text-lg text-rich-black leading-[120%]">
                   {counters.counter3}%
                 </h3>
-                <p className="font-inter font-normal text-sm text-gray max-w-[105px] text-center mx-auto">
+                <p className="font-inter font-normal text-sm text-gray lg:max-w-[105px] max-w-[180px] text-center mx-auto">
                   SQL To meeting
                 </p>
               </div>
