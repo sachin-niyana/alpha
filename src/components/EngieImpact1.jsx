@@ -9,7 +9,7 @@ import { BoxNextArrow, BoxPrewArrow, HalfGradientCircle } from "./common/Icon";
 const EngieImpact1 = () => {
   const CustomPrevArrow = ({ onClick }) => (
     <button
-      className="absolute right-[30%] bottom-[15%] min-[425px]:bottom-[16%] md:bottom-[30%]  xl:bottom-[40%] xl:right-[13.3%] transform rotate-90 xl:rotate-0 z-[10]"
+      className="absolute right-[30%] bottom-[15%] min-[425px]:bottom-[16%] md:bottom-[30%]  xl:bottom-[40%] xl:right-[11%] transform rotate-90 xl:rotate-0 z-[10]"
       onClick={onClick}
     >
       <BoxNextArrow />
@@ -17,7 +17,7 @@ const EngieImpact1 = () => {
   );
   const CustomNextArrow = ({ onClick }) => (
     <button
-      className="absolute left-[30%] bottom-[15%] min-[425px]:bottom-[16%] md:bottom-[30%]  xl:bottom-[34%] xl:left-[82.5%] transform rotate-90 xl:rotate-0  z-[10] "
+      className="absolute left-[30%] bottom-[15%] min-[425px]:bottom-[16%] md:bottom-[30%]  xl:bottom-[34%] xl:left-[84.8%] transform rotate-90 xl:rotate-0  z-[10] "
       onClick={onClick}
     >
       <BoxPrewArrow />
@@ -38,7 +38,8 @@ const EngieImpact1 = () => {
       <Slider {...settings}>
         <div>
           <div className="bg-rich-black">
-            <div className="container max-w-[1080px] mx-auto px-3 pt-[97px]">
+            <div className="container max-w-[1164px] mx-auto px-3 ">
+              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">
@@ -86,14 +87,15 @@ const EngieImpact1 = () => {
                         Sustainable Resource Management (SRM)
                       </p>
                       <p className="text-[14px] lg:text-sm  font-inter font-normal leading-[156%] mt-3  md:mt-[22px] capitalize text-[#F6F6F6]">
-                        “Alpha² presented to us the exact solution required, agile
-                        project delivery and complete transparency throughout each
-                        reporting review. Given the volatile energy market, we
-                        wanted to understand the specific challenges our
-                        prospective clients were facing to help us find ways in
-                        which to support them. We worked closely with Alpha² right
-                        from the start and achieved great results that have helped
-                        shape our sales strategy moving forwards.”
+                        “Alpha² presented to us the exact solution required,
+                        agile project delivery and complete transparency
+                        throughout each reporting review. Given the volatile
+                        energy market, we wanted to understand the specific
+                        challenges our prospective clients were facing to help
+                        us find ways in which to support them. We worked closely
+                        with Alpha² right from the start and achieved great
+                        results that have helped shape our sales strategy moving
+                        forwards.”
                       </p>
                     </div>
                   </div>
@@ -113,7 +115,8 @@ const EngieImpact1 = () => {
         </div>
         <div>
           <div className="bg-rich-black">
-            <div className="container max-w-[1080px] mx-auto px-3 pt-[97px]">
+            <div className="container max-w-[1164px] mx-auto px-3">
+              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">
@@ -158,7 +161,10 @@ const EngieImpact1 = () => {
                         Chief Executive Officer
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter font-normal leading-[156%] mt-3  md:mt-[22px] capitalize text-[#F6F6F6]">
-                        I would happily recommend Alpha² because of the quality of service they put in, specifically how much time they invest into understanding the products and services that we are selling.”
+                        I would happily recommend Alpha² because of the quality
+                        of service they put in, specifically how much time they
+                        invest into understanding the products and services that
+                        we are selling.”
                       </p>
                     </div>
                   </div>
@@ -178,7 +184,8 @@ const EngieImpact1 = () => {
         </div>
         <div>
           <div className="bg-rich-black">
-            <div className="container max-w-[1080px] mx-auto px-3 pt-[97px]">
+            <div className="container max-w-[1164px] mx-auto px-3">
+              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">
@@ -226,7 +233,17 @@ const EngieImpact1 = () => {
                         Development & Sales Onboarding
                       </p>
                       <p className="text-[14px] lg:text-sm  font-inter font-normal leading-[156%] mt-3  md:mt-[22px] capitalize text-[#F6F6F6]">
-                        “At WPP, we rely on Alpha²  as our go-tosales partner within EMEA & North America. Their attention to detail, effort and willingness to leave no stone nturned in order to delivery service of the highest quality enables Alpha²  to stand out in the lead generation marketplace. I’ve used a number of firms for outsourced sales & lead generation and Alpha²  is easily the top 1 or 2. The quality of appointments and the attention to detail is beyond what was initially expected . For a large company, as we are, to be very satisfied means they’ve worked hard to get it right.”
+                        “At WPP, we rely on Alpha² as our go-tosales partner
+                        within EMEA & North America. Their attention to detail,
+                        effort and willingness to leave no stone nturned in
+                        order to delivery service of the highest quality enables
+                        Alpha² to stand out in the lead generation marketplace.
+                        I’ve used a number of firms for outsourced sales & lead
+                        generation and Alpha² is easily the top 1 or 2. The
+                        quality of appointments and the attention to detail is
+                        beyond what was initially expected . For a large
+                        company, as we are, to be very satisfied means they’ve
+                        worked hard to get it right.”
                       </p>
                     </div>
                   </div>
