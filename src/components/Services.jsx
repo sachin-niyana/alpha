@@ -25,10 +25,10 @@ const Services = () => {
       className="bg-rich-black border-b-[0.001px] border-light-gray relative"
       id="services"
     >
-      <span className="">
+      <span>
         <Image
-          className="absolute top-[11%] animate-pulse"
-          width={198}
+          className="absolute top-[25%] animate-pulse"
+          width={170}
           height={545}
           src="/assets/images/services/webp/alpha-2.webp"
           alt="alpha-2"
@@ -96,10 +96,10 @@ const Services = () => {
                   <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
                     Lead Generation
                   </h3>
-                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent">
+                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
                     Accelerate sales for aspiring businesses
                   </h4>
-                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[450px]">
+                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
                     Sourcing and developing relationship with target prospects
                     can be challenging and most importantly time consuming.
                     Enhance your sales teams productivity by filling their
@@ -130,52 +130,17 @@ const Services = () => {
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
                   <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
-                    Lead Generation
+                    Strategic Marketing
                   </h3>
-                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent">
-                    Accelerate sales for aspiring businesses
+                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
+                    A new generation of growth agency
                   </h4>
-                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[450px]">
-                    Sourcing and developing relationship with target prospects
-                    can be challenging and most importantly time consuming.
-                    Enhance your sales teams productivity by filling their
-                    calendars with high-quality, pre-qualified appointments.
-                  </p>
-                </div>
-                <div className="relative">
-                  <Image
-                    className="min-[1440px]:translate-x-[165px]"
-                    width={660}
-                    height={494}
-                    src="/assets/images/services/webp/target.webp"
-                    alt="target"
-                  />
-                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
-                    <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
-                      {counters.counter1}+
-                    </h3>
-                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
-                      B2B Companies trust Alpha2
-                    </p>
-                    <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
-                  </div>
-                </div>
-              </div>
-            )}
-            {activeTab === 2 && (
-              <div className="flex md:flex-row flex-col items-center">
-                <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
-                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
-                    Lead Generation
-                  </h3>
-                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent">
-                    Accelerate sales for aspiring businesses
-                  </h4>
-                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[450px]">
-                    Sourcing and developing relationship with target prospects
-                    can be challenging and most importantly time consuming.
-                    Enhance your sales teams productivity by filling their
-                    calendars with high-quality, pre-qualified appointments.
+                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
+                    Through a number of multi-focused outreach campaigns, we
+                    work alongside our partners to develop conversion specific
+                    content – Showcasing the companies strengths using
+                    intelligent positioning & messaging whilst organically
+                    generating new opportunities.
                   </p>
                 </div>
                 <div className="relative">
@@ -198,20 +163,19 @@ const Services = () => {
                 </div>
               </div>
             )}
-            {activeTab === 3 && (
+            {activeTab === 2 && (
               <div className="flex md:flex-row flex-col items-center">
                 <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
                   <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
-                    Lead Generation
+                    Demand Generation
                   </h3>
-                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent">
-                    Accelerate sales for aspiring businesses
+                  <h4 className="font-inter font-semibold md:text-start text-center max-w-[463px] lg:text-md md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
+                    Aligned sales and marketing generating new business
+                    opportunities
                   </h4>
-                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[450px]">
-                    Sourcing and developing relationship with target prospects
-                    can be challenging and most importantly time consuming.
-                    Enhance your sales teams productivity by filling their
-                    calendars with high-quality, pre-qualified appointments.
+                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
+                    Diligent demand generation and lead acquisition, resulting
+                    in a steady flow of Marketing Qualified Leads (MQLs).
                   </p>
                 </div>
                 <div className="relative">
@@ -234,8 +198,43 @@ const Services = () => {
                 </div>
               </div>
             )}
+            {activeTab === 3 && (
+              <div className="flex md:flex-row flex-col items-center">
+                <div className="flex flex-col min-[1440px]:pe-0 md:pe-5 md:my-0 my-8">
+                  <h3 className="font-aptos font-bold lg:text-xxl sm:text-xl text-lg md:text-start text-center md:text-lg text-light-white leading-[100%]">
+                    Target Profiling
+                  </h3>
+                  <h4 className="font-inter font-semibold md:text-start text-center lg:text-md max-w-[463px] md:text-sm sm:text-md text-sm lg:mt-[31px] mt-4 bg-gradient-to-t from-[#FF684D] to-[#FF5269] bg-clip-text text-transparent capitalize">
+                    Scale revenue growth from new and existing prospects
+                  </h4>
+                  <p className="capitalize font-inter font-normal text-sm text-dark-gray md:text-start text-center lg:mt-[17px] mt-3 md:mx-0 mx-auto max-w-[463px]">
+                    Understanding your customer profile and target audience
+                    enables Alpha² to analyse factors such as industry, company
+                    size, demographics, geo-location and purchasing behaviour to
+                    create an accurate ‘Ideal Customer Profile / or ICP.
+                  </p>
+                </div>
+                <div className="relative">
+                  <Image
+                    className="min-[1440px]:translate-x-[165px]"
+                    width={660}
+                    height={494}
+                    src="/assets/images/services/webp/target.webp"
+                    alt="target"
+                  />
+                  <div className=" bg-light-gray lg:px-8 lg:pt-[22px] lg:pb-[33px] p-2 z-10 absolute min-[1440px]:top-[82%] top-0 min-[1440px]:right-14 ">
+                    <h3 className="text-center font-inter font-normal lg:text-xxl md:text-xl text-lg text-rich-black leading-[120%]">
+                      {counters.counter1}+
+                    </h3>
+                    <p className="font-inter font-normal text-sm text-gray leading-[125%] max-w-[120px] text-center mx-auto pb-[21px]">
+                      B2B Companies trust Alpha2
+                    </p>
+                    <div className="lg:w-[153px] sm:w-[110px] w-[100px] h-[1px] bg-rich-black mx-auto"></div>
+                  </div>
+                </div>
+              </div>
+            )}
           </div>
-          {/* Add content for additional tabs */}
         </div>
       </div>
     </div>
