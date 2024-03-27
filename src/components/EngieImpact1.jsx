@@ -39,7 +39,7 @@ const EngieImpact1 = () => {
         <div className="flex flex-col">
           <div className="bg-rich-black">
             <div className="container max-w-[1164px] mx-auto lg:px-4 px-3 ">
-              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
+              <div className="w-[1px] sm:h-[79px] h-[50px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">
@@ -116,7 +116,7 @@ const EngieImpact1 = () => {
         <div className="flex flex-col">
           <div className="bg-rich-black">
             <div className="container max-w-[1164px] mx-auto px-3">
-              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
+              <div className="w-[1px] sm:h-[79px] h-[50px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">
@@ -185,7 +185,7 @@ const EngieImpact1 = () => {
         <div className="flex flex-col">
           <div className="bg-rich-black">
             <div className="container max-w-[1164px] mx-auto px-3">
-              <div className="w-[1px] h-[79px] bg-light-white mb-4 lg:ms-12"></div>
+              <div className="w-[1px] sm:h-[79px] h-[50px] bg-light-white mb-4 lg:ms-12"></div>
               <div className="md:flex flex-wrap justify-center">
                 <div className="md:w-[50%]">
                   <div className="flex items-center">

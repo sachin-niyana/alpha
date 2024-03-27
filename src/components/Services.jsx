@@ -35,8 +35,8 @@ const Services = () => {
         />
       </span>
 
-      <div className="container relative max-w-[1164px] mx-auto lg:pb-[101px] pb-16 lg:px-4 px-3 border-e-[1px] border-rich-black">
-        <div className="h-[79px] w-[1px] bg-light-white lg:ms-12"></div>
+      <div className="container relative max-w-[1164px] mx-auto lg:pb-[101px] sm:pb-16 pb-[50px] lg:px-4 px-3 border-e-[1px] border-rich-black">
+        <div className="sm:h-[79px] h-[50px] w-[1px] bg-light-white lg:ms-12"></div>
         <div className="flex items-center">
           <span>
             <HalfGradientCircle />
@@ -50,9 +50,9 @@ const Services = () => {
             <button
               className={`${
                 activeTab === 0
-                  ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
+                  ? "bg-linear-gradient-btn md:border-l-0 border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] md:border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] md:border-t-0 md:border-e-0 focus:outline-none font-inter font-normal xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(0)}
             >
               Lead Generation
@@ -62,7 +62,7 @@ const Services = () => {
                 activeTab === 1
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-normal xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(1)}
             >
               Strategic Marketing
@@ -72,7 +72,7 @@ const Services = () => {
                 activeTab === 2
                   ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 md:border-e-0 focus:outline-none font-inter font-normal xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(2)}
             >
               Demand Generation
@@ -80,9 +80,9 @@ const Services = () => {
             <button
               className={`${
                 activeTab === 3
-                  ? "bg-linear-gradient-btn border-b-0 border-t-rich-black text-white "
+                  ? "bg-linear-gradient-btn md:border-r-0 border-b-0 border-t-rich-black text-white "
                   : "text-dark-gray "
-              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 focus:outline-none font-inter font-semibold xl:text-md lg:text-ssm text-sm`}
+              } flex-1 py-[26px] lg:px-7 px-3 border-[1px] border-t-0 focus:outline-none font-inter font-normal xl:text-md lg:text-ssm text-sm`}
               onClick={() => setActiveTab(3)}
             >
               Target Profiling
@@ -108,7 +108,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[165px]"
+                    className="min-[1440px]:translate-x-[163px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/meting.webp"
@@ -145,7 +145,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[165px]"
+                    className="min-[1440px]:translate-x-[163px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/strategic.webp"
@@ -180,7 +180,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[165px]"
+                    className="min-[1440px]:translate-x-[163px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/demand.webp"
@@ -216,7 +216,7 @@ const Services = () => {
                 </div>
                 <div className="relative">
                   <Image
-                    className="min-[1440px]:translate-x-[165px]"
+                    className="min-[1440px]:translate-x-[163px]"
                     width={660}
                     height={494}
                     src="/assets/images/services/webp/target.webp"

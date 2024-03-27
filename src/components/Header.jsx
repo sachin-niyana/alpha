@@ -83,7 +83,7 @@ const Header = () => {
               />
             </div>
           </div>
-          <div className="min-w-[200px] lg:px-6">
+          <div className="min-w-[203px] lg:px-6">
             <div className="animate-pulse absolute lg:top-[4%] top-[2%] md:right-[8%] sm:right-[6%] right-[8%] w-[37px] h-[74px] bg-linear-gradient-btn rounded-tr-full rounded-br-full rotate-[-30deg]"></div>
             <div className="flex lg:flex-col flex-row justify-center lg:pb-0">
               <div className="lg:border-b-[1px] lg:border-e-0 lg:w-full sm:w-[200px] min-[570px]:w-[180px] w-[120px] border-e-[1px] border-rich-black lg:pb-[33px] lg:pt-[43px] lg:my-0 my-8">

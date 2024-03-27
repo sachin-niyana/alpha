@@ -8,9 +8,9 @@ const GetAnswer = () => {
       <span className="absolute top-24 animate-pulse">
         <AlhpaName2 />
       </span>
-      <div className="container relative max-w-[1115px] mx-auto lg:px-4 px-3 pt-10 md:pt-[96px]">
+      <div className="container relative max-w-[1115px] mx-auto lg:px-4 px-3 pt-[50px] md:pt-[96px]">
         <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
-        <div className=" flex flex-wrap justify-center pb-16 sm:pb-[115px]">
+        <div className=" flex flex-wrap justify-center pb-[50px] md:pb-[72px] lg:pb-[115px]">
           <div className="sm:w-[60%]">
             <div className="flex items-center">
               <span>
@@ -20,7 +20,7 @@ const GetAnswer = () => {
                 GOT A QUESTION?
               </h2>
             </div>
-            <h3 className="uppercase md:text-[40px] text-llg lg:text-[50px] xl:text-2xl ml-5 font-bold text-light-white font-aptos">
+            <h3 className="uppercase md:text-[40px] text-llg lg:text-[50px] xl:text-2xl xl:ml-0 ml-5 lg:mt-0 -mt-3 font-bold text-light-white font-aptos">
               GET YOUR
               <span className="bg-gradient-to-t from-[#FF5269] to-[#ff684d] text-transparent bg-clip-text">
                 {" "}

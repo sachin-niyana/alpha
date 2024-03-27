@@ -24,7 +24,7 @@ const Footer = () => {
       />
       <div className="container max-w-[1115px] xl:pl-[6px] mx-auto lg:px-4 px-3">
         <div className=" relative">
-          <div className="flex flex-wrap pt-[60px] md:pt-[130px] lg:pt-[167px] justify-center">
+          <div className="flex flex-wrap pt-[50px] md:pt-[72px] lg:pt-[167px] justify-center">
             <div className="w-full sm:w-[50%] md:w-4/12  flex justify-center md:justify-start">
               <ul className="flex justify-center flex-col items-center">
                 <li className="font-aptos text-[24px] font-bold text-[#F6F6F6] mb-[10px]">
@@ -50,16 +50,16 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-full sm:w-[50%] mt-4 md:mt-0 md:w-4/12  flex items-center justify-center">
+            <div className="w-full sm:w-[50%] mt-4 sm:mt-0 md:w-4/12  flex items-center justify-center">
               <ul className="flex justify-center flex-col items-center">
                 <li className="font-aptos text-[24px] font-bold text-[#F6F6F6] mb-[10px]">
                   US
                 </li>
-                <li className="mb-2">
+                <li className="mb-2 text-center mx-auto">
                   {" "}
                   <Link
                     href="/"
-                    className="text-sm font-normal  font-inter text-[#b7b7b7] "
+                    className="text-sm font-normal font-inter text-[#b7b7b7] "
                   >
                     13785 Research Boulevard Austin
                   </Link>{" "}
@@ -75,8 +75,8 @@ const Footer = () => {
                 </li>
               </ul>
             </div>
-            <div className="w-full sm:w-[50%] mt-4 md:mt-0 md:w-4/12  flex justify-center md:justify-end md:items-end">
-              <ul className="flex justify-center flex-col items-center">
+            <div className="w-full sm:w-[50%] mt-4 md:mt-0 md:w-4/12  flex justify-center md:justify-end ">
+              <ul className="flex justify-start flex-col items-center align-top">
                 <li className="font-aptos text-[24px] font-bold text-[#F6F6F6] mb-[10px]">
                   MADRID
                 </li>

@@ -6,11 +6,11 @@ const TrustedBy = () => {
   return (
     <div>
       <div className="container max-w-[1164px] mx-auto lg:px-4 px-3 overflow-x-hidden">
-        <div className="flex flex-col border-e-[1px] pt-[55px] pb-[68px] border-rich-black">
+        <div className="flex flex-col border-e-[1px] sm:pt-[55px] sm:pb-[68px] py-[50px] border-rich-black">
           <h2 className="font-aptos text-[24px] uppercase text-[#2B2B2B] font-bold">
             Trusted by:
           </h2>
-          <Marquee speed={100} className="mt-[28px] gap-[4px]">
+          <Marquee speed={100} className="mt-[28px] gap-[4px] me-[6px]">
             <Image
               src="/assets/images/trusted/svg/grid-beyond.svg"
               width={153.02}

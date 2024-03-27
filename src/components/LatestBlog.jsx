@@ -20,7 +20,7 @@ const LatestBlog = () => {
       </span>
       <div className="container max-w-[1164px] mx-auto lg:px-4 px-3 overflow-x-hidden">
         <div className="xl:h-[148px] h-[70px] w-[1px] bg-rich-black absolute top-0 left-[7%] xl:left-[14%] hidden lg:block "></div>
-        <div className="sm:border-r-[1px]  xl:pt-[171px] md:py-[70px] py-14 xl:pb-[223px] lg:items-start border-richbg-rich-black">
+        <div className="sm:border-r-[1px]  xl:pt-[171px] md:py-[70px] py-[50px] xl:pb-[223px] lg:items-start border-richbg-rich-black">
           <div className="flex items-center">
             <span>
               <HalfGradientCircle />
