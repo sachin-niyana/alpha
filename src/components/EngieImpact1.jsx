@@ -34,7 +34,7 @@ const EngieImpact1 = () => {
     prevArrow: <CustomPrevArrow />,
   };
   return (
-    <div className="relative max-w-[1440px] mx-auto">
+    <div className="relative max-w-[1440px] mx-auto" id="engie">
       <Slider {...settings}>
         <div className="flex flex-col">
           <div className="bg-rich-black">
