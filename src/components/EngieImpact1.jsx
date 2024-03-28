@@ -1,41 +1,73 @@
 "use client";
 import Image from "next/image";
-import React from "react";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick-theme.css";
 import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
+import React, { useEffect, useRef, useState } from "react";
 import { BoxNextArrow, BoxPrewArrow, HalfGradientCircle } from "./common/Icon";
 
 const EngieImpact1 = () => {
-  const CustomPrevArrow = ({ onClick }) => (
-    <button
-      className="absolute lg:bottom-[40%] md:bottom-[28%] bottom-[17%] lg:right-[11%] right-3 z-[10]"
-      onClick={onClick}
-    >
-      <BoxNextArrow />
-    </button>
-  );
-  const CustomNextArrow = ({ onClick }) => (
-    <button
-      className="absolute lg:bottom-[34%] md:bottom-[20%] bottom-[10%] lg:right-[11%] right-3 z-[10] "
-      onClick={onClick}
-    >
-      <BoxPrewArrow />
-    </button>
-  );
+  const [counters, setCounters] = useState({
+    counter1: 0,
+    counter2: 0,
+    counter3: 0,
+    counter4: 0,
+    counter5: 0,
+    counter6: 0,
+    counter7: 0,
+    counter8: 0,
+    counter9: 0,
+  });
 
-  const settings = {
+  // // useEffect hook to increment counters over time until a maximum value is reached
+  useEffect(() => {
+    const interval = setInterval(() => {
+      setCounters((prevCounters) => ({
+        counter1: Math.min(prevCounters.counter1 + 1, 94),
+        counter2: Math.min(prevCounters.counter2 + 1, 369),
+        counter3: Math.min(prevCounters.counter3 + 1, 518),
+        counter4: Math.min(prevCounters.counter4 + 1, 4),
+        counter5: Math.min(prevCounters.counter5 + 1, 215),
+        counter6: Math.min(prevCounters.counter6 + 1, 500),
+        counter7: Math.min(prevCounters.counter7 + 1, 8.2),
+        counter8: Math.min(prevCounters.counter8 + 1, 124),
+        counter9: Math.min(prevCounters.counter9 + 1, 13),
+      }));
+    }, 2);
+
+    return () => clearInterval(interval);
+  }, []);
+  const sliderRef = useRef(null);
+  var settings = {
     dots: false,
     infinite: true,
+    autoplay: false,
+    arrows: false,
     speed: 500,
     slidesToShow: 1,
     slidesToScroll: 1,
-    nextArrow: <CustomNextArrow />,
-    prevArrow: <CustomPrevArrow />,
+  };
+  const prevSlideHandler = () => {
+    sliderRef.current.slickPrev();
+  };
+  const nextSlideHandler = () => {
+    sliderRef.current.slickNext();
   };
   return (
     <div className="relative max-w-[1440px] mx-auto" id="engie">
-      <Slider {...settings}>
+      <div
+        className="absolute cursor-pointer lg:bottom-[40%] md:bottom-[28%] bottom-[17%] lg:right-[11%] right-3 z-[10]"
+        onClick={prevSlideHandler}
+      >
+        <BoxNextArrow />
+      </div>
+      <div
+        className="absolute cursor-pointer lg:bottom-[34%] md:bottom-[20%] bottom-[10%] lg:right-[11%] right-3 z-[10] "
+        onClick={nextSlideHandler}
+      >
+        <BoxPrewArrow />
+      </div>
+      <Slider ref={sliderRef} {...settings}>
         <div className="flex flex-col">
           <div className="bg-rich-black">
             <div className="container max-w-[1164px] mx-auto lg:px-4 px-3 ">
@@ -53,7 +85,7 @@ const EngieImpact1 = () => {
                   <div className="flex items-center justify-between mt-10 lg:mt-[97px] sm:pe-[18px]">
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        94%
+                        {counters.counter1}%
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         Growth in Pipeline
@@ -61,7 +93,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        369
+                        {counters.counter2}
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         SQLs
@@ -69,7 +101,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        518%
+                        {counters.counter3}%
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         ROI Esther Howard
@@ -130,7 +162,7 @@ const EngieImpact1 = () => {
                   <div className="flex items-center justify-between mt-10 lg:mt-[97px]  sm:pe-[18px]">
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        4M+
+                        {counters.counter4}M+
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         Pipeline Generated
@@ -138,7 +170,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        215
+                        {counters.counter5}
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         SQLs
@@ -146,7 +178,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        500%
+                        {counters.counter6}%
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         ROI Alan Fitzpatrick
@@ -199,7 +231,7 @@ const EngieImpact1 = () => {
                   <div className="flex items-start justify-between mt-10 lg:mt-[97px]">
                     <div className="flex flex-col justify-start items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        £8.2 £M+
+                        £{counters.counter7} £M+
                       </h3>
                       <p className="text-[14px] lg:text-sm lg:max-w-[186px] max-w-[160px] font-inter text-center text-dark-gray   leading-[125%] font-normal">
                         Estimated Pipeline Value Keith Bott
@@ -207,7 +239,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-center items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        124
+                        {counters.counter8}
                       </h3>
                       <p className="text-[14px] lg:text-sm  font-inter text-dark-gray  leading-[125%] font-normal">
                         SQLs
@@ -215,7 +247,7 @@ const EngieImpact1 = () => {
                     </div>
                     <div className="flex flex-col justify-end items-center">
                       <h3 className="font-aptos text-[28px] md:text-[34px] lg:text-[48px] font-light text-light-white">
-                        13%
+                        {counters.counter9}%
                       </h3>
                       <p className="text-[14px] lg:text-sm lg:max-w-[200px] max-w-[110px] font-inter text-dark-gray text-center  leading-[125%] font-normal">
                         Closed Won Opportunities
