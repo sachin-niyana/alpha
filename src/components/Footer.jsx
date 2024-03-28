@@ -106,7 +106,7 @@ const Footer = () => {
               <Link
                 href="https://www.linkedin.com/"
                 target="_blank"
-                className="transition-all ease-out duration-300"
+                className="transition-all ease-out duration-300 hover:translate-y-[-5px]"
               >
                 {" "}
                 <LinkdinIcon />{" "}
@@ -114,7 +114,7 @@ const Footer = () => {
               <Link
                 href="https://www.facebook.com/"
                 target="_blank"
-                className="transition-all ease-out duration-300"
+                className="transition-all ease-out duration-300 hover:translate-y-[-5px]"
               >
                 {" "}
                 <FacebookIcon />{" "}
@@ -122,7 +122,7 @@ const Footer = () => {
               <Link
                 href="https://twitter.com/"
                 target="_blank"
-                className="transition-all ease-out duration-300"
+                className="transition-all ease-out duration-300 hover:translate-y-[-5px]"
               >
                 {" "}
                 <TwiterIcon />{" "}
@@ -130,7 +130,7 @@ const Footer = () => {
               <Link
                 href="https://www.instagram.com/"
                 target="_blank"
-                className="transition-all ease-out duration-300"
+                className="transition-all ease-out duration-300 hover:translate-y-[-5px]"
               >
                 {" "}
                 <InstagramIcon />{" "}
