@@ -8,9 +8,9 @@ const GetAnswer = () => {
       <span className="absolute top-24 animate-pulse">
         <AlhpaName2 />
       </span>
-      <div className="container relative max-w-[1115px] mx-auto lg:px-4 px-3 pt-[50px] md:pt-[96px]">
-        <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[7%] xl:left-[14%] hidden md:block "></div>
-        <div className=" flex flex-wrap justify-center pb-[50px] md:pb-[72px] lg:pb-[115px]">
+      <div className="container relative max-w-[1162px] mx-auto lg:px-4 px-3 pt-[50px] md:pt-[96px]">
+        <div className="h-[80px] w-[1px] bg-[#F6F6F6] absolute top-0 left-[6%] hidden md:block "></div>
+        <div className=" flex flex-wrap justify-center pb-[50px] md:pb-[72px] lg:pb-[115px] xl:me-7">
           <div className="sm:w-[60%]">
             <div className="flex items-center">
               <span>
