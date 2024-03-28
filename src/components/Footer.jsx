@@ -22,7 +22,7 @@ const Footer = () => {
         height={335}
         alt="footer-img"
       />
-      <div className="container max-w-[1162px] xl:pl-[6px] mx-auto lg:px-4 px-3">
+      <div className="container max-w-[1152px] xl:pl-[6px] mx-auto lg:px-4 px-3">
         <div className=" relative xl:me-7">
           <div className="flex flex-wrap pt-[50px] md:pt-[72px] lg:pt-[167px] justify-center">
             <div className="w-full sm:w-[50%] md:w-4/12  flex justify-center md:justify-start">
